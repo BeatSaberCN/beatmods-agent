@@ -18,28 +18,28 @@ const MY_PREFIX = "^https?://[^/]+/api"
 const REMOTE_SERVER = "https://beatmods.com/api"
 
 const handlers = [
-	new ProxyHandler(new RegExp(MY_PREFIX +"/mods(\\?.*)?$"),			REMOTE_SERVER + "/mods$1"			, new ModsRewriter()),
-	new ProxyHandler(new RegExp(MY_PREFIX +"/mods/(.*)$"), 		REMOTE_SERVER + "/mods/$1"		, new SingleModRewriter()),
+    new ProxyHandler(new RegExp(MY_PREFIX +"/mods(\\?.*)?$"),      REMOTE_SERVER + "/mods$1"         , new ModsRewriter()),
+    new ProxyHandler(new RegExp(MY_PREFIX +"/mods/(.*)$"),         REMOTE_SERVER + "/mods/$1"        , new SingleModRewriter()),
 ]
 
 export default {
-	async fetch(request, env, ctx): Promise<Response> {
-		const url = new URL(request.url)
-		if (url.pathname === "/robots.txt"){
-			return new Response("User-agent: *\nDisallow: /", {
-				headers: {
-					"content-type": "text/plain"
-				}
-			})
-		}
+    async fetch(request, env, ctx): Promise<Response> {
+        const url = new URL(request.url)
+        if (url.pathname === "/robots.txt"){
+            return new Response("User-agent: *\nDisallow: /", {
+                headers: {
+                    "content-type": "text/plain"
+                }
+            })
+        }
 
-		for(const handler of handlers){
-			if(handler.urlMatch(request.url)){
-				return handler.response(request, env, ctx)
-			}
-		}
-		return new Response("Page not found",{
-			status: 404
-		});
-	},
+        for(const handler of handlers){
+            if(handler.urlMatch(request.url)){
+                return handler.response(request, env, ctx)
+            }
+        }
+        return new Response("Page not found",{
+            status: 404
+        });
+    },
 } satisfies ExportedHandler<Env>;
