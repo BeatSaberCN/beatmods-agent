@@ -24,6 +24,15 @@ const handlers = [
 
 export default {
 	async fetch(request, env, ctx): Promise<Response> {
+		const url = new URL(request.url)
+		if (url.pathname === "/robots.txt"){
+			return new Response("User-agent: *\nDisallow: /", {
+				headers: {
+					"content-type": "text/plain"
+				}
+			})
+		}
+
 		for(const handler of handlers){
 			if(handler.urlMatch(request.url)){
 				return handler.response(request, env, ctx)
