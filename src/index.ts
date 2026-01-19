@@ -11,8 +11,26 @@
  * Learn more at https://developers.cloudflare.com/workers/
  */
 
+import { ModsRewriter, SingleModRewriter } from "./BeatModsRewriters/ModRewriters";
+import { ProxyHandler } from "./ProxyHandler";
+
+const MY_PREFIX = "^https?://[^/]+/api"
+const REMOTE_SERVER = "https://beatmods.com/api"
+
+const handlers = [
+	new ProxyHandler(new RegExp(MY_PREFIX +"/mods$"),			REMOTE_SERVER + "/mods"			, new ModsRewriter()),
+	new ProxyHandler(new RegExp(MY_PREFIX +"/mods/(.*)$"), 		REMOTE_SERVER + "/mods/$1"		, new SingleModRewriter()),
+]
+
 export default {
 	async fetch(request, env, ctx): Promise<Response> {
-		return new Response('Hello World!');
+		for(const handler of handlers){
+			if(handler.urlMatch(request.url)){
+				return handler.response(request, env, ctx)
+			}
+		}
+		return new Response("Page not found",{
+			status: 404
+		});
 	},
 } satisfies ExportedHandler<Env>;
