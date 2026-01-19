@@ -1,5 +1,11 @@
 import { Rewriter } from "./Rewriter"
 
+function allowOrigin(origin:string){
+    if(origin == "http://localhost:5173")
+        return true
+    return false
+}
+
 export class ProxyHandler{
     url_pattern:RegExp
     url_replace:string
@@ -26,17 +32,32 @@ export class ProxyHandler{
             }
         })
 
+        const cross_origin_header:any = {}
+        const origin = req.headers.get("origin")
+
+        
+        if(origin){
+            if(allowOrigin(origin)){
+                cross_origin_header["Access-Control-Allow-Origin"] = origin
+                cross_origin_header["Access-Control-Allow-Credentials"] = "true"
+            }else{
+                console.warn("Origin is refused:", origin)
+            }
+        }
+
         if(resp.status == 200){
             if(this.rewriter){
                 return new Response(await this.rewriter.rewrite(req, env, ctx, await resp.text()), {
                     headers: {
-                        "content-type":resp.headers.get("content-type") || "application/text"
+                        "content-type":resp.headers.get("content-type") || "application/text",
+                        ...cross_origin_header
                     }
                 })
             }else{
                 return new Response(await resp.text(),{
                     headers: {
-                        "content-type":resp.headers.get("content-type") || "application/text"
+                        "content-type":resp.headers.get("content-type") || "application/text",
+                        ...cross_origin_header
                     }
                 })
             }
@@ -45,7 +66,8 @@ export class ProxyHandler{
         return new Response(await resp.text(), {
             status: resp.status, // this is for compat. beatmods uses the status code for error detect, we forward it.
             headers: {
-                "content-type":resp.headers.get("content-type") || ""
+                "content-type":resp.headers.get("content-type") || "",
+                ...cross_origin_header
             }
         })
     }
