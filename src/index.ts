@@ -18,7 +18,7 @@ const MY_PREFIX = "^https?://[^/]+/api"
 const REMOTE_SERVER = "https://beatmods.com/api"
 
 const handlers = [
-	new ProxyHandler(new RegExp(MY_PREFIX +"/mods$"),			REMOTE_SERVER + "/mods"			, new ModsRewriter()),
+	new ProxyHandler(new RegExp(MY_PREFIX +"/mods(\\?.*)?$"),			REMOTE_SERVER + "/mods$1"			, new ModsRewriter()),
 	new ProxyHandler(new RegExp(MY_PREFIX +"/mods/(.*)$"), 		REMOTE_SERVER + "/mods/$1"		, new SingleModRewriter()),
 ]
 
