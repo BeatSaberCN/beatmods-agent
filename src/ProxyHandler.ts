@@ -28,9 +28,17 @@ export class ProxyHandler{
 
         if(resp.status == 200){
             if(this.rewriter){
-                return new Response(await this.rewriter.rewrite(req, env, ctx, await resp.text()))
+                return new Response(await this.rewriter.rewrite(req, env, ctx, await resp.text()), {
+                    headers: {
+                        "content-type":resp.headers.get("content-type") || "application/text"
+                    }
+                })
             }else{
-                return new Response(await resp.text())
+                return new Response(await resp.text(),{
+                    headers: {
+                        "content-type":resp.headers.get("content-type") || "application/text"
+                    }
+                })
             }
         }
 
