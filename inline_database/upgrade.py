@@ -24,10 +24,16 @@ class ModJsonFile:
         self.id = json['id']
         if not json["name"] in self.names:
             self.names[json["name"]] = None
-        if not json["summary"] in self.summmaries:
-            self.summmaries[json["summary"]] = None
-        if not json["description"] in self.descriptions:
-            self.descriptions[json["description"]] = None
+        
+        if json["summary"] == json["description"]:
+            txt = json["summary"]
+            if not ((txt in self.summmaries and txt in self.descriptions) or txt in self.translates):
+                self.translates[txt] = None
+        else:
+            if not json["summary"] in self.summmaries:
+                self.summmaries[json["summary"]] = None
+            if not json["description"] in self.descriptions:
+                self.descriptions[json["description"]] = None
     def to_json_object(self):
         return {
                 "id":self.id,
