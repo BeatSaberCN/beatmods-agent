@@ -1,11 +1,11 @@
 {
     "id": 5,
     "names": {
-        "BeatSaverDownloader": null
+        "BeatSaverDownloader": "BeatSaver下载器"
     },
     "summmaries": {},
     "descriptions": {},
     "translates": {
-        "Enables you to download songs from BeatSaver in-game.": null
+        "Enables you to download songs from BeatSaver in-game.": "在游戏内下载来自BeatSaver的歌曲。"
     }
 }
