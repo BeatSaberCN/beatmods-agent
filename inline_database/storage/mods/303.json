@@ -1,0 +1,13 @@
+{
+    "id": 303,
+    "names": {
+        "System.IO.Compression.FileSystem": null
+    },
+    "summmaries": {
+        "Provides classes that support the compression and decompression of streams using file system paths.": null
+    },
+    "descriptions": {
+        "Provides classes that support the compression and decompression of streams using file system paths.\n\nThis mod was imported from BeatMods, and was originally uploaded by Bobbie at 2023-05-11T21:34:39.731Z.": null
+    },
+    "translates": {}
+}

@@ -1,0 +1,13 @@
+{
+    "id": 304,
+    "names": {
+        "System.IO.Compression": null
+    },
+    "summmaries": {
+        "Contains classes that provide basic compression and decompression services for streams.": null
+    },
+    "descriptions": {
+        "Contains classes that provide basic compression and decompression services for streams.\n\nThis mod was imported from BeatMods, and was originally uploaded by Bobbie at 2023-05-11T21:33:40.585Z.": null
+    },
+    "translates": {}
+}

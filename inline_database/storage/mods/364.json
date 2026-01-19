@@ -1,0 +1,13 @@
+{
+    "id": 364,
+    "names": {
+        "ComboSplitter": null
+    },
+    "summmaries": {
+        "Simple Beat Saber tool that modifies the combo panel to show a combo for each hand.": null
+    },
+    "descriptions": {
+        "# ComboSplitter - For Beat Saber v1.38.0+\nA small Beat Saber tool that modifies the combo panel to count a combo for each hand.\n\n## Dependencies\n* BSIPA v4.3.5+\n* SiraUtil v3.1.12+\n* BeatSaberMarkupLanguage v1.12.3+\n\n## Usage\n* Counts each individual hand's combo instead of a total combo for both\n  * One saber maps will only show the active saber combo\n* Option to follow the saber color scheme\n  * *Can be disabled*\n* Hover hint that shows hand stats when you hover over the combo text in the results screen.\n  * Options:\n    - Follow saber color scheme\n    - Show percentage per hand\n    - Show total misses\n    - Extend miss info (shows misses, bomb hits, and bad cuts separately)\n  * *All can be disabled*\n* Bad cuts and misses are properly tracked for each hand\n* Sticking your head inside a wall resets both combos down to zero\n* Works in standard levels as well as multiplayer!\n": null
+    },
+    "translates": {}
+}

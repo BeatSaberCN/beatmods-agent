@@ -1,0 +1,13 @@
+{
+    "id": 290,
+    "names": {
+        "BetterPause": null
+    },
+    "summmaries": {
+        "Allows you to change the current uncustomizable pause menu and replace it with a better one.": null
+    },
+    "descriptions": {
+        "# BetterPause\n- Allows you to fix the uncustomizable and ugly pause menu and replace it with a better one (with too many options)\n\n\n## Usage\n- Configuration menu is located on the left hand Mods menu under *BetterPause*.\n- The *General Tab* allows you to toggle the mod and enable showing the mapper's name.\n- The *Background Tab* allows you to change the background of the main pause bar.\n\t- Options include Enabling, Changing Left/Right color, and Changing the direction of the gradient.\n- The *Texts Tab* allows you to customize each piece of text shown on the main pause bar. \n\t- Options include Toggling customization of each text and Changing the color of each text.\n- The *Buttons Tab* allows you to customize the three buttons shown below the main pause bar.\n\t- Options include Toggling button customization and Customizing the default and hover colors of each button.\n- The *IForgor Tab* allows you to optionally enable integration with the [IForgor Mod](https://beatmods.com/mods/221).\n\t- Options include Enabling integration, Syncing colors from the *Background Tab*, Flipping the direction of the synced colors, Changing the colors that are used when not syncing, and Changing the direction of the gradient.\n- The mod includes a semi-accurate mockup of what your customizations look like whenever you make a change.\n\n![Preview](https://github.com/Futuremappermydud/BetterPause/blob/master/image.png?raw=true)\n": null
+    },
+    "translates": {}
+}

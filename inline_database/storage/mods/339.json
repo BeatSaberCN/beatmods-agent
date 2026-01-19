@@ -1,0 +1,13 @@
+{
+    "id": 339,
+    "names": {
+        "FailButton": null
+    },
+    "summmaries": {
+        "Adds a button to the pause menu that fails the level. Original mod made by Kinsi55": null
+    },
+    "descriptions": {
+        "# FailButton\n\nLiterally a button that makes you fail.\n\n## But why?\n\nReplays. I always have No Fail active, but encounter situations where I mess up and want to check the replay to see what went wrong - So this makes that possible. Additionally, when playing a specific part in Practice mode (Currently) you need to have No Fail active to be able to watch that replay afterwards, as otherwise you would fail while watching the replay because ScoreSaber doesnt handle that - But that also means you could not just play that specific part that you want to check out but need to play the entire song. So just keeping NoFail active in Practice and using this button to watch the replay also fixes that 🙂\n\n![Preview](https://i.imgur.com/cGOelJA.png)\n\n## Credits\nThank you [Kinsi](https://github.com/kinsi55) for creating the original mod (and the above description)!": null
+    },
+    "translates": {}
+}

@@ -1,0 +1,13 @@
+{
+    "id": 308,
+    "names": {
+        "OpenVR API": null
+    },
+    "summmaries": {
+        "A library for Beat Saber that provides API bindings to communicate with the OpenVR runtime (Ste...": null
+    },
+    "descriptions": {
+        "A library for Beat Saber that provides API bindings to communicate with the OpenVR runtime (SteamVR).\n\nThis mod was imported from BeatMods, and was originally uploaded by nicoco007 at 2024-04-03T12:48:41.563Z.": null
+    },
+    "translates": {}
+}

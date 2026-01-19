@@ -1,0 +1,13 @@
+{
+    "id": 10,
+    "names": {
+        "Custom Platforms": null
+    },
+    "summmaries": {
+        "A plugin to support loading and switching platforms and environments": null
+    },
+    "descriptions": {
+        "# CustomPlatforms\n\nAllows you to modify environments with custom-made assets.\n\nTo use a custom platform, acquire a `.plat` file, either from https://modelsaber.com, or a model downloader such as [ModelMenu](https://beatmods.com/mods/332). Once you have a platform, ensure it is placed into the `CustomPlatforms` folder, which is located in the folder that the game is installed to. CustomPlatforms will automatically refresh the platforms list when adding new platforms, so you don't have to worry about restarting the game.\n\nYou can set a different custom platform for standard gameplay, in the main menu, in multiplayer, and in 360 degree gameplay. ": null
+    },
+    "translates": {}
+}

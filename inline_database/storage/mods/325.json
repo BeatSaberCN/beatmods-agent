@@ -1,0 +1,13 @@
+{
+    "id": 325,
+    "names": {
+        "HSVLayer": null
+    },
+    "summmaries": {
+        "Allow the user to change the display layer of the score text that display when you cut a note. ...": null
+    },
+    "descriptions": {
+        "Allow the user to change the display layer of the score text that display when you cut a note. Useful if you want to stream/record a video and display those while having UI disabled at the same time.": null
+    },
+    "translates": {}
+}

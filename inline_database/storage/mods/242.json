@@ -1,0 +1,13 @@
+{
+    "id": 242,
+    "names": {
+        "bHaptics": null
+    },
+    "summmaries": {
+        "A library to interface with the bHaptics Player and play back haptic feedback patterns in the s...": null
+    },
+    "descriptions": {
+        "A library to interface with the bHaptics Player and play back haptic feedback patterns in the supported gear.\n\nThis mod was imported from BeatMods, and was originally uploaded by floh-bhaptics at 2022-02-17T17:17:04.337Z.": null
+    },
+    "translates": {}
+}

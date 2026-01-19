@@ -1,0 +1,13 @@
+{
+    "id": 47,
+    "names": {
+        "Particle Overdrive": null
+    },
+    "summmaries": {
+        "Features: disable camera noise, disable global particle haze, configure slash particle amount, ...": null
+    },
+    "descriptions": {
+        "# ParticleOverdrive\n\nThis mod focuses on tweaking the amount of effects particles in the game.\n\nTo configure particles, navigate to the options, and then the mod settings tab. This is where all of ParticleOverdrive's options are located.\n\nParticleOverdrive allows you to configure the following:\n- Disable [camera noise](https://en.wikipedia.org/wiki/Image_noise)\n- Disable the white dust particles that float around the player\n- Modify the amount of particles created from cutting notes - known as note cut and note explosion particles\n- Modify the amount of particles caused by the sabers colliding with eachother\n- Modify the amount of particles caused by the sabers colliding with wall obstacles\n\nAfter changing any settings, make sure to press \"OK\", ensuring that the changes get saved.": null
+    },
+    "translates": {}
+}

@@ -1,0 +1,11 @@
+{
+    "id": 263,
+    "names": {
+        "HighlightBombs": null
+    },
+    "summmaries": {},
+    "descriptions": {},
+    "translates": {
+        "Adds a slight outline to bombs to make them more visible in the dark.": null
+    }
+}

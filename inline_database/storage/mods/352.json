@@ -1,0 +1,13 @@
+{
+    "id": 352,
+    "names": {
+        "HapticsTweaker": null
+    },
+    "summmaries": {
+        "Highly configurable controller haptics!": null
+    },
+    "descriptions": {
+        "**Features:**\n- Fully customize the haptic duration and strength of Normal Notes, Chain Heads, Chain Links/Elements, Bad Cuts, Bombs, Arcs, Saber Clashes, and Wall Clashes!\n- Arcs and clashes do not have a duration as they are continuous.  \n\n**Likely not compatible with any mods that modify haptics. Please disable Custom Haptics in Tweaks55 to avoid unintended behavior!**  \n**Tweaks55 disables clash particles and haptics together, overriding this mod. Use Particle Overdrive or BS+'s GameTweaker to disable clash particles if you still want clash haptics!**  \n**Has only been verified to work using Quest 2 with Touch Controllers and Quest Link OpenXR runtime. Other headsets, controllers, or runtimes may not work!**": null
+    },
+    "translates": {}
+}

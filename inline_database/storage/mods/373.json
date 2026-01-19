@@ -1,0 +1,13 @@
+{
+    "id": 373,
+    "names": {
+        "MenuFloaters": null
+    },
+    "summmaries": {
+        "Changes the amount of LevitatingNote that are present in the menu environment": null
+    },
+    "descriptions": {
+        "Changes the amount of LevitatingNote that are present in the menu environment.\r\n\r\nSettings for the mod are located in the Mod Settings menu within the normal Settings menu.": null
+    },
+    "translates": {}
+}

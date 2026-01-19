@@ -1,0 +1,13 @@
+{
+    "id": 95,
+    "names": {
+        "RandomSongPlayer": null
+    },
+    "summmaries": {
+        "Downloads a random song from BeatSaver": null
+    },
+    "descriptions": {
+        "# RandomSongPlayer\nA plugin for Beat Saber that downloads a random song from BeatSaver.\n\n## How to use\nNavigate to the \"Solo\" game mode or join a multiplayer lobby. You will find the \"RSP\" settings under the \"Mods\" tab on the left-hand side.\n\nUse the \"Generate Random Song\" button in the settings or the \"RSP\" button on the RandomSongs level pack to download and select a random map.\n\nYou can also define filter to narrow down the random maps that can be generated.\n\n## Filters\nA filter will check the map or difficulty for certain aspects:\n- **\"Basic\"** will filter for general beatmap information (key, rating, duration) \n- **\"Objects\"** will filter for a number of objects (notes, bombs, walls) in a difficulty\n- **\"Mode\"** will search in a specific characteristic/difficulty or mod requirements\n- **\"Extra\"** will filter for additional settings.\n\nAny filter setting will not be considered if the field is left empty.\n\nFor Scoresaber and Beatleader star ratings, set the minimum required stars to 0 if you want to filter for any ranked map.\n\nThe server preset allows for special filters using a filtering server. You can change the server address in the plugin configuration.\n\n## Addendum\nThanks to DarkGrisen for the original plugin.\n\nThis plugin was inspired by the Random Song Tournament.\n\nThis mod was imported from BeatMods, and was originally uploaded by DarkGrisen at 2019-11-30T16:11:28.116Z.": null
+    },
+    "translates": {}
+}

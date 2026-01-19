@@ -1,0 +1,13 @@
+{
+    "id": 365,
+    "names": {
+        "MenuSelector": null
+    },
+    "summmaries": {
+        "Adds the option to switch between the different built-in menu environments. ": null
+    },
+    "descriptions": {
+        "# MenuSelector\r\n PC Beat Saber plugin that adds the option to switch between the different built-in menu environments.\r\n\r\n## Usage\r\nLocate the \"Menu Selector\" button in the left of the main menu to access the Menu Selector screen.\r\n": null
+    },
+    "translates": {}
+}

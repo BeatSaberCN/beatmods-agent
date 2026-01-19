@@ -1,0 +1,13 @@
+{
+    "id": 265,
+    "names": {
+        "CameraUtils": null
+    },
+    "summmaries": {
+        "Library that standardizes the use of GameObject layers and provides tools for easier rendering ...": null
+    },
+    "descriptions": {
+        "Library that standardizes the use of GameObject layers and provides tools for easier rendering pipeline modifications": null
+    },
+    "translates": {}
+}

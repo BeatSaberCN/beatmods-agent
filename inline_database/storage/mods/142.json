@@ -1,0 +1,13 @@
+{
+    "id": 142,
+    "names": {
+        "AutoPauseStealth": null
+    },
+    "summmaries": {
+        "Automatically and stealthily pause your game at the start of every song waiting for potential l...": null
+    },
+    "descriptions": {
+        "Automatically and stealthily pause your game at the start of every song waiting for potential lag spikes to end.": null
+    },
+    "translates": {}
+}

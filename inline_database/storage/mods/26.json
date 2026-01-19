@@ -1,0 +1,11 @@
+{
+    "id": 26,
+    "names": {
+        "PracticePlugin": null
+    },
+    "summmaries": {},
+    "descriptions": {},
+    "translates": {
+        "Plugin for Beat Saber to control playback speed, seek through songs and set up looping sections.": null
+    }
+}

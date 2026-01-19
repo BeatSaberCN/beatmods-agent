@@ -1,0 +1,11 @@
+{
+    "id": 306,
+    "names": {
+        "AssetBundleLoadingTools": null
+    },
+    "summmaries": {},
+    "descriptions": {},
+    "translates": {
+        "A library with various tools to help safely load AssetBundles and fix legacy shader issues.": null
+    }
+}

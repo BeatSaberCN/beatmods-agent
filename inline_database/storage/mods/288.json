@@ -1,0 +1,13 @@
+{
+    "id": 288,
+    "names": {
+        "SongRankedBadge": null
+    },
+    "summmaries": {
+        "Show a map's rank status using the promotion badge. Supports both SS and BL ranking.": null
+    },
+    "descriptions": {
+        "# SongRankedBadge \n\nShows a map's rank status using the promotion badge\n\nSupports both SS and BL ranking\n\n![Imgur](https://i.imgur.com/gqYvPkF.png)": null
+    },
+    "translates": {}
+}
