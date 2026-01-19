@@ -18,8 +18,27 @@ const MY_PREFIX = "^https?://[^/]+/api"
 const REMOTE_SERVER = "https://beatmods.com/api"
 
 const handlers = [
+    new ProxyHandler(new RegExp(MY_PREFIX +"/bbmStatusForBbmAlsoPinkEraAndLillieAreCuteBtwWilliamGay$"),      REMOTE_SERVER + "/bbmStatusForBbmAlsoPinkEraAndLillieAreCuteBtwWilliamGay"),
+    new ProxyHandler(new RegExp(MY_PREFIX +"/modversions/(.*)$"),      REMOTE_SERVER + "/modversions/$1"),
+    new ProxyHandler(new RegExp(MY_PREFIX +"/multi/modversions(.*)$"),      REMOTE_SERVER + "/multi/modversions$1"),
+    new ProxyHandler(new RegExp(MY_PREFIX +"/hashlookup(.*)$"),      REMOTE_SERVER + "/hashlookup$1"),
+    new ProxyHandler(new RegExp(MY_PREFIX +"/edits(.*)$"),      REMOTE_SERVER + "/edits$1"),
+    // new ProxyHandler(new RegExp(MY_PREFIX +"/edits/(.*)$"),      REMOTE_SERVER + "/edits/$1"),
+
     new ProxyHandler(new RegExp(MY_PREFIX +"/mods(\\?.*)?$"),      REMOTE_SERVER + "/mods$1"         , new ModsRewriter()),
     new ProxyHandler(new RegExp(MY_PREFIX +"/mods/(.*)$"),         REMOTE_SERVER + "/mods/$1"        , new SingleModRewriter()),
+
+
+    new ProxyHandler(new RegExp(MY_PREFIX +"/games(.*)$"),      REMOTE_SERVER + "/games$1"),
+    new ProxyHandler(new RegExp(MY_PREFIX +"/versions(.*)$"),      REMOTE_SERVER + "/versions$1"),
+    new ProxyHandler(new RegExp(MY_PREFIX +"/versions/default(.*)$"),      REMOTE_SERVER + "/versions/default$1"),
+    new ProxyHandler(new RegExp(MY_PREFIX +"/motd(.*)$"),      REMOTE_SERVER + "/motd$1"),
+
+
+
+    new ProxyHandler(new RegExp(MY_PREFIX +"/user(.*)$"),      REMOTE_SERVER + "/user$1"),
+    // new ProxyHandler(new RegExp(MY_PREFIX +"/user/(.*)$"),      REMOTE_SERVER + "/user/$1"),
+    new ProxyHandler(new RegExp(MY_PREFIX +"/users(.*)$"),      REMOTE_SERVER + "/users$1"),
 ]
 
 export default {
