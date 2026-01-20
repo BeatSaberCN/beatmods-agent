@@ -72,3 +72,15 @@ export class ProxyHandler{
         })
     }
 }
+
+export class RedirectHandler extends ProxyHandler{
+    constructor(url_pattern:RegExp, url_replace:string, rewriter?:Rewriter){
+        super(url_pattern, url_replace, rewriter)
+    }
+
+    async response(req:Request, env:Env, ctx:ExecutionContext<unknown>):Promise<Response> {
+        const forwarded_url = req.url.replace(this.url_pattern, this.url_replace)
+
+        return Response.redirect(forwarded_url, 301)
+    }
+}

@@ -12,12 +12,15 @@
  */
 
 import { ModsRewriter, SingleModRewriter } from "./BeatModsRewriters/ModRewriters";
-import { ProxyHandler } from "./ProxyHandler";
+import { ProxyHandler, RedirectHandler } from "./ProxyHandler";
 
 const MY_PREFIX = "^https?://[^/]+/api"
 const REMOTE_SERVER = "https://beatmods.com/api"
 
 const handlers = [
+    new RedirectHandler(new RegExp("https?://[^/]+/cdn/icon/(.*)$"),   "https://beatmods.com/cdn/icon/$1"),
+    new RedirectHandler(new RegExp("https?://[^/]+/cdn/mod/(.*)$"),    "https://beatmods.com/cdn/mod/$1"),
+
     new ProxyHandler(new RegExp(MY_PREFIX +"/bbmStatusForBbmAlsoPinkEraAndLillieAreCuteBtwWilliamGay$"),      REMOTE_SERVER + "/bbmStatusForBbmAlsoPinkEraAndLillieAreCuteBtwWilliamGay"),
     new ProxyHandler(new RegExp(MY_PREFIX +"/modversions/(.*)$"),          REMOTE_SERVER + "/modversions/$1"),
     new ProxyHandler(new RegExp(MY_PREFIX +"/multi/modversions(.*)$"),     REMOTE_SERVER + "/multi/modversions$1"),
