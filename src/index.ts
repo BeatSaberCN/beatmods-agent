@@ -33,6 +33,7 @@ const handlers = [
     new ProxyHandler(new RegExp(MY_PREFIX +"/edits(.*)$"),                 REMOTE_SERVER + "/edits$1"),
     // new ProxyHandler(new RegExp(MY_PREFIX +"/edits/(.*)$"),             REMOTE_SERVER + "/edits/$1"),
 
+    new ProxyHandler(new RegExp(MY_PREFIX +"/status$"),                    REMOTE_SERVER + "/status"),
     new ProxyHandler(new RegExp(MY_PREFIX +"/mods(\\?.*)?$"),              REMOTE_SERVER + "/mods$1"                 , new ModsRewriter()),
     new ProxyHandler(new RegExp(MY_PREFIX +"/mods/(.*)$"),                 REMOTE_SERVER + "/mods/$1"                , new SingleModRewriter()),
 
