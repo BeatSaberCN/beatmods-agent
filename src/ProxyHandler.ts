@@ -1,7 +1,9 @@
 import { Rewriter } from "./Rewriter"
 
 function allowOrigin(origin:string){
-    if(origin == "http://localhost:5173")
+    if(typeof(origin) != "string")
+        return false
+    if(origin.startsWith("http://localhost:"))
         return true
     return false
 }
@@ -82,5 +84,17 @@ export class RedirectHandler extends ProxyHandler{
         const forwarded_url = req.url.replace(this.url_pattern, this.url_replace)
 
         return Response.redirect(forwarded_url, 301)
+    }
+}
+
+export class FrontendHandler extends ProxyHandler{
+    constructor(url_pattern:RegExp, url_replace:string, rewriter?:Rewriter){
+        super(url_pattern, url_replace, rewriter)
+    }
+
+    async response(req:Request, env:Env, ctx:ExecutionContext<unknown>):Promise<Response> {
+        const forwarded_url = req.url.replace(this.url_pattern, this.url_replace)
+        console.log(forwarded_url)
+        return env.FRONTEND.fetch(forwarded_url)
     }
 }

@@ -15,6 +15,12 @@
 			"pattern": "beatmods.bsaber.cn",
 			"custom_domain": true
 		}
+	],
+	"services": [
+		{
+			"binding": "FRONTEND",
+			"service": "beatmods-cn-website"
+		}
 	]
 	/**
 	 * Smart Placement
