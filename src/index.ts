@@ -19,6 +19,7 @@ const REMOTE_SERVER = "https://beatmods.com/api"
 
 const handlers = [
     new FrontendHandler(new RegExp("(https?://[^/]+/)front/(_app/.*)$"),   "$1$2"),
+    new FrontendHandler(new RegExp("(https?://[^/]+/)front/(user/.*)$"),   "$1$2"),
     new FrontendHandler(new RegExp("(https?://[^/]+/)front/(mods)$"),   "$1$2"),
     new FrontendHandler(new RegExp("(https?://[^/]+/)front/(mods/.*)$"),   "$1$2"),
 

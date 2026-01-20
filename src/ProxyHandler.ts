@@ -94,7 +94,6 @@ export class FrontendHandler extends ProxyHandler{
 
     async response(req:Request, env:Env, ctx:ExecutionContext<unknown>):Promise<Response> {
         const forwarded_url = req.url.replace(this.url_pattern, this.url_replace)
-        console.log(forwarded_url)
         return env.FRONTEND.fetch(forwarded_url)
     }
 }
