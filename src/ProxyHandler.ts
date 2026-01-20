@@ -12,17 +12,18 @@ export class ProxyHandler{
     url_pattern:RegExp
     url_replace:string
     rewriter?:Rewriter
-    cache_enabled:boolean
+
+    cache_age:number
 
     constructor(url_pattern:RegExp, url_replace:string, rewriter?:Rewriter){
         this.url_pattern = url_pattern
         this.url_replace = url_replace
         this.rewriter = rewriter
-        this.cache_enabled = false
+        this.cache_age = 0
     }
     // 内存缓存，用于缓解json太大导致执行时间超过10ms限制的问题。同时跳过beatmods源，能有效提升访问速度。
-    with_cache(){
-        this.cache_enabled = true
+    with_cache(age = 60 /* seconds */ * 60 /* minutes */ * 2 /* hours */){
+        this.cache_age = age
         return this
     }
 
@@ -54,7 +55,7 @@ export class ProxyHandler{
         if(req.method != "GET"){
             cache_avaliable = false
         }
-        if(!this.cache_enabled)
+        if(this.cache_age == 0)
             cache_avaliable = false
 
         if(cache_avaliable){
@@ -87,7 +88,7 @@ export class ProxyHandler{
                 }
             })
             if(cache_avaliable){
-                response.headers.append("Cache-Control", "s-maxage=" + (60/*sec*/*60/*min*/*2/*hours*/))
+                response.headers.append("Cache-Control", "s-maxage=" + this.cache_age)
                 ctx.waitUntil(cache.put(forwarded_url, response.clone()))
             }
 
