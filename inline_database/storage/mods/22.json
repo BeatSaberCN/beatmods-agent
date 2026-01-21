@@ -1,13 +1,15 @@
 {
     "id": 22,
     "names": {
-        "BS Utils": null
+        "BS Utils": "BS工具集"
     },
     "summmaries": {
-        "A basic library for mods to use for common functionality. ": null
+        "A basic library for mods to use for common functionality. ": 
+        "为各模组提供常用功能的一个基础支持库。"
     },
     "descriptions": {
-        "A basic library for mods to use for common functionality.": null
+        "A basic library for mods to use for common functionality.": 
+        "为各模组提供常用功能的一个基础支持库。"
     },
     "translates": {}
 }

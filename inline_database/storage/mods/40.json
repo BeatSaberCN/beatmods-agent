@@ -1,7 +1,7 @@
 {
     "id": 40,
     "names": {
-        "HitScoreVisualizer": null
+        "HitScoreVisualizer": "打击分数可视化"
     },
     "summmaries": {
         "Visualizes the scores of your hits! Overly complex config options! Numbers?\nAll the pros use it...": null

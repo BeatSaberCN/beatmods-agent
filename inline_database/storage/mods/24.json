@@ -4,10 +4,11 @@
         "BeatTogether": null
     },
     "summmaries": {
-        "A multiplayer private server for the modding community.": null
+        "A multiplayer private server for the modding community.": "一个模组社区的非官方多人服务器。"
     },
     "descriptions": {
-        "A multiplayer private server for the modding community with support for crossplay between PC and Quest.": null
+        "A multiplayer private server for the modding community with support for crossplay between PC and Quest.": 
+        "一个模组社区的非官方多人服务器，支持PC和Quest之间跨平台联机。"    
     },
     "translates": {}
 }

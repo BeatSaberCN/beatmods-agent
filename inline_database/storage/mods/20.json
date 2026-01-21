@@ -1,7 +1,7 @@
 {
     "id": 20,
     "names": {
-        "Ini Parser": null
+        "Ini Parser": "ini配置解析"
     },
     "summmaries": {
         "A .NET, Mono and Unity3d compatible(*) library for reading/writing INI data from IO streams, fi...": null
