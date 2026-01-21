@@ -3,6 +3,7 @@
 	"version": "0.0.0",
 	"private": true,
 	"scripts": {
+		"build": "python inline_database/upgrade.py",
 		"deploy": "python inline_database/upgrade.py && wrangler deploy",
 		"dev": "python inline_database/upgrade.py && wrangler dev",
 		"start": "wrangler dev",
