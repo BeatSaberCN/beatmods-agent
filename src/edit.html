@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <div id="loading">加载中，请等待</div>
+        <script>
+            async function main(){
+                const url_group = new RegExp("https?://[^/]+/json_edit/([0-9]+)$").exec(window.location.href)
+                if(!url_group)
+                {
+                    document.write("Mod ID不可用")
+                    return
+                }
+                const json_url = "/tapi/inlinedb/" + url_group[1]
+                const resp = await fetch(json_url)
+                if(resp.status == 200){
+                    const json = await resp.json()
+                    console.log(json)
+                    const preview_title = document.createElement("h2")
+                    preview_title.innerText = "输出预览"
+                    document.body.append(preview_title)
+                    const preview = document.createElement("textarea")
+                    preview.style = "width:100%;min-height:100px"
+                    preview.readOnly = true
+                    preview.value = JSON.stringify(json, null, 2)
+                    document.body.append(preview)
+
+                    {
+                        const download = document.createElement("button")
+                        download.innerText = "下载JSON"
+                        download.onclick = ()=>{
+                            const text = JSON.stringify(json, null, 2)
+                            console.log(text)
+                            const link = document.createElement("a")
+                            link.download = url_group[1] + ".json"
+                            link.href = URL.createObjectURL(new Blob([text], {type:"text/json"}))
+                            
+                            link.click()
+
+                            URL.revokeObjectURL(link.href)
+                        }
+                        document.body.append(download)
+                        const download_hint = document.createElement("span")
+                        download_hint.innerText = "  下载后请通过Git提交至inline_database\\storage\\mods目录下。"
+                        document.body.append(download_hint)
+                        const pr_href = document.createElement("a")
+                        pr_href.href = "https://github.com/BeatSaberCN/beatmods-agent/tree/master/inline_database/storage/mods"
+                        pr_href.innerText = "见此处"
+                        pr_href.target = "_blank"
+                        document.body.append(pr_href)
+
+                    }
+
+                    document.body.append(document.createElement("hr"))
+                    document.getElementById("loading").remove()
+                    function edit(category){
+                        const cate = json[category]
+                        if(cate == undefined || Object.keys(cate).length == 0)
+                            return
+                        const state = document.createElement("h2")
+                        state.innerText = "编辑" + category + "："
+                        document.body.append(state)
+
+                        for(const item_en in cate){
+                            const orig = document.createElement("textarea")
+                            orig.value = item_en
+                            orig.style = "width:100%;min-height:30px"
+                            orig.readOnly = true
+                            document.body.append(orig)
+                            const trans = document.createElement("textarea")
+                            trans.value = cate[item_en]
+                            trans.style = "width:100%;min-height:30px"
+                            trans.placeholder = "请输入翻译，留空为不翻译"
+
+                            trans.onchange = ()=>{
+                                cate[item_en] = trans.value == "" ? null : trans.value
+                                preview.value = JSON.stringify(json, null, 2)
+                            }
+                            document.body.append(trans)
+                        }
+                    }
+
+                    edit("names")
+                    edit("summaries")
+                    edit("descriptions")
+                    edit("translates")
+
+                }else{
+                    document.write("资源请求失败")
+                }
+            }
+            main()
+        </script>
+    </body>
+</html>

@@ -12,12 +12,14 @@
  */
 
 import { ModsRewriter, SingleModRewriter } from "./BeatModsRewriters/ModRewriters";
+import { TranslateDbEditPageHandler } from "./Edit";
 import { FrontendHandler, ProxyHandler, RedirectHandler } from "./ProxyHandler";
+import { TranslateDbFetchHandler } from "./TranslateDbFetchHandler";
 
 const MY_PREFIX = "^https?://[^/]+/api"
 const REMOTE_SERVER = "https://beatmods.com/api"
 
-const handlers = [
+const handlers:RequestHandler[] = [
     new RedirectHandler(new RegExp("https?://[^/]+/cdn/icon/(.*)$"),   "https://beatmods.com/cdn/icon/$1"),
     new RedirectHandler(new RegExp("https?://[^/]+/cdn/mod/(.*)$"),    "https://beatmods.com/cdn/mod/$1"),
 
@@ -53,6 +55,8 @@ const handlers = [
     new FrontendHandler(new RegExp("(https?://[^/]+/)front/(user/.*)$"),   "$1front/$2"),
     new FrontendHandler(new RegExp("(https?://[^/]+/)front/(mods)$"),   "$1front/$2"),
     new FrontendHandler(new RegExp("(https?://[^/]+/)front/(mods/.*)$"),   "$1front/$2"),
+    new TranslateDbEditPageHandler(),
+    new TranslateDbFetchHandler()
 ]
 
 export default {

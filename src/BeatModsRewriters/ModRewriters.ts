@@ -22,7 +22,7 @@ export interface ModInfo{
     name:string|null|undefined,
     summary:string|null|undefined,
     description:string|null|undefined,
-    authors: [ModAuthor]
+    authors: ModAuthor[]
 }
 
 export interface ModAuthor{

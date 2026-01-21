@@ -8,7 +8,7 @@ function allowOrigin(origin:string){
     return false
 }
 
-export class ProxyHandler{
+export class ProxyHandler implements RequestHandler{
     url_pattern:RegExp
     url_replace:string
     rewriter?:Rewriter
