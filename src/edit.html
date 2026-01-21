@@ -24,14 +24,14 @@
                     const preview = document.createElement("textarea")
                     preview.style = "width:100%;min-height:100px"
                     preview.readOnly = true
-                    preview.value = JSON.stringify(json, null, 2)
+                    preview.value = JSON.stringify(json, null, 4)
                     document.body.append(preview)
 
                     {
                         const download = document.createElement("button")
                         download.innerText = "下载JSON"
                         download.onclick = ()=>{
-                            const text = JSON.stringify(json, null, 2)
+                            const text = JSON.stringify(json, null, 4)
                             console.log(text)
                             const link = document.createElement("a")
                             link.download = url_group[1] + ".json"
@@ -77,7 +77,7 @@
 
                             trans.onchange = ()=>{
                                 cate[item_en] = trans.value == "" ? null : trans.value
-                                preview.value = JSON.stringify(json, null, 2)
+                                preview.value = JSON.stringify(json, null, 4)
                             }
                             document.body.append(trans)
                         }
