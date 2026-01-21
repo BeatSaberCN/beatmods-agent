@@ -41,6 +41,7 @@
 
                             URL.revokeObjectURL(link.href)
                         }
+                        document.body.append(document.createElement("br"))
                         document.body.append(download)
                         const download_hint = document.createElement("span")
                         download_hint.innerText = "  下载后请通过Git提交至inline_database\\storage\\mods目录下。"
