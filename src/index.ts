@@ -36,7 +36,7 @@ const handlers:RequestHandler[] = [
     // new ProxyHandler(new RegExp(MY_PREFIX +"/edits/(.*)$"),             REMOTE_SERVER + "/edits/$1"),
 
     new ProxyHandler(new RegExp(MY_PREFIX +"/mods(\\?.*)?$"),              REMOTE_SERVER + "/mods$1"                 , new ModsRewriter())      .with_cache(),
-    new ProxyHandler(new RegExp(MY_PREFIX +"/mods/(.*)$"),                 REMOTE_SERVER + "/mods/$1"                , new SingleModRewriter()) .with_cache(),
+    new ProxyHandler(new RegExp(MY_PREFIX +"/mods/([0-9]+)$"),                 REMOTE_SERVER + "/mods/$1"                , new SingleModRewriter()) .with_cache(),
 
 
     new ProxyHandler(new RegExp(MY_PREFIX +"/games(.*)$"),                 REMOTE_SERVER + "/games$1"),
@@ -46,9 +46,10 @@ const handlers:RequestHandler[] = [
 
 
 
-    new ProxyHandler(new RegExp(MY_PREFIX +"/user(.*)$"),                  REMOTE_SERVER + "/user$1"),
+    new ProxyHandler(new RegExp(MY_PREFIX +"/user(/[0-9]+)$"),                  REMOTE_SERVER + "/user$1"),
+    new ProxyHandler(new RegExp(MY_PREFIX +"/user(/[0-9]+/mods)$"),                  REMOTE_SERVER + "/user$1", new ModsRewriter()).with_cache(),
     // new ProxyHandler(new RegExp(MY_PREFIX +"/user/(.*)$"),              REMOTE_SERVER + "/user/$1"),
-    new ProxyHandler(new RegExp(MY_PREFIX +"/users(.*)$"),                 REMOTE_SERVER + "/users$1"),
+    new ProxyHandler(new RegExp(MY_PREFIX +"/users$"),                 REMOTE_SERVER + "/users"),
 
 
     new FrontendHandler(new RegExp("(https?://[^/]+/)front/(_app/.*)$"),   "$1front/$2"),
