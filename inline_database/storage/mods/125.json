@@ -1,11 +1,11 @@
 {
     "id": 125,
     "names": {
-        "TrickSaber": null
+        "TrickSaber": "特技光剑"
     },
     "summmaries": {},
     "descriptions": {},
     "translates": {
-        "A mod for performing tricks like spinning and throwing your sabers": null
+        "A mod for performing tricks like spinning and throwing your sabers": "可以做旋转/抛出光剑的特技的模组。"
     }
 }

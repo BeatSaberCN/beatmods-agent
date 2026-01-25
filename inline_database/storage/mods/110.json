@@ -1,11 +1,11 @@
 {
     "id": 110,
     "names": {
-        "CustomWalls": null
+        "CustomWalls": "自定义墙壁"
     },
     "summmaries": {},
     "descriptions": {},
     "translates": {
-        "A plugin for custom walls in Beat Saber": null
+        "A plugin for custom walls in Beat Saber": "在节奏光剑中自定义墙壁的插件。"
     }
 }

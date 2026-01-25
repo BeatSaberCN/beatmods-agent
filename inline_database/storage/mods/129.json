@@ -1,13 +1,13 @@
 {
     "id": 129,
     "names": {
-        "CustomJSONData": null
+        "CustomJSONData": "自定义JSON数据"
     },
     "summmaries": {
-        "Lets mappers include arbitrary data in beatmaps, and lets modders access that data. Why did I m...": null
+        "Lets mappers include arbitrary data in beatmaps, and lets modders access that data. Why did I m...": "能让谱师能在谱面中添加任意数据，并让模组访问这些数据。我做这个干啥？好问题。"
     },
     "descriptions": {
-        "Lets mappers include arbitrary data in beatmaps, and lets modders access that data. Why did I make this? Good question.\n\nThis mod was imported from BeatMods, and was originally uploaded by Aeroluna at 2020-07-30T03:58:37.865Z.": null
+        "Lets mappers include arbitrary data in beatmaps, and lets modders access that data. Why did I make this? Good question.\n\nThis mod was imported from BeatMods, and was originally uploaded by Aeroluna at 2020-07-30T03:58:37.865Z.": "能让谱师能在谱面中添加任意数据，并让模组访问这些数据。我做这个干啥？好问题。"
     },
     "translates": {}
 }

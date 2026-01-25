@@ -1,11 +1,11 @@
 {
     "id": 116,
     "names": {
-        "ImageCoverExpander": null
+        "ImageCoverExpander": "封面图像扩展"
     },
     "summmaries": {},
     "descriptions": {},
     "translates": {
-        "Expands and customize the image cover container in the song selection!": null
+        "Expands and customize the image cover container in the song selection!": "在歌曲选择界面将图像封面扩展、定制为更大尺寸！"
     }
 }

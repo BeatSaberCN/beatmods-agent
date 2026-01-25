@@ -1,11 +1,11 @@
 {
     "id": 68,
     "names": {
-        "CustomNotes": null
+        "CustomNotes": "自定义方块"
     },
     "summmaries": {},
     "descriptions": {},
     "translates": {
-        "Adds support for custom notes in beat saber": null
+        "Adds support for custom notes in beat saber": "为节奏光剑增加自定义方块支持。"
     }
 }

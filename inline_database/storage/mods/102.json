@@ -4,10 +4,10 @@
         "ScoreSaberSharp": null
     },
     "summmaries": {
-        "Official C# Library to interact with the ScoreSaber API": null
+        "Official C# Library to interact with the ScoreSaber API": "与ScoreSaber API交互的官方C#支持库。"
     },
     "descriptions": {
-        "Official C# Library to interact with the ScoreSaber API\n\nThis mod was imported from BeatMods, and was originally uploaded by Umbranox at 2019-12-21T23:28:16.462Z.": null
+        "Official C# Library to interact with the ScoreSaber API\n\nThis mod was imported from BeatMods, and was originally uploaded by Umbranox at 2019-12-21T23:28:16.462Z.": "与ScoreSaber API交互的官方C#支持库。"
     },
     "translates": {}
 }

@@ -4,10 +4,10 @@
         "BeatSaverSharp": null
     },
     "summmaries": {
-        "Official C# Library to interact with the BeatSaver API": null
+        "Official C# Library to interact with the BeatSaver API": "与BeatSaver API交互的官方C#支持库。"
     },
     "descriptions": {
-        "Official C# Library to interact with the BeatSaver API\n\nThis mod was imported from BeatMods, and was originally uploaded by lolpants at 2019-12-28T23:01:35.248Z.": null
+        "Official C# Library to interact with the BeatSaver API\n\nThis mod was imported from BeatMods, and was originally uploaded by lolpants at 2019-12-28T23:01:35.248Z.": "与BeatSaver API交互的官方C#支持库。"
     },
     "translates": {}
 }

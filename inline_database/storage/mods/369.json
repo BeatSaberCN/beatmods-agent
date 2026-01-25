@@ -1,11 +1,11 @@
 {
     "id": 369,
     "names": {
-        "HideTheLogo": null
+        "HideTheLogo": "隐藏Logo"
     },
     "summmaries": {},
     "descriptions": {},
     "translates": {
-        "Hides the Beat Saber logo in the menu environments": null
+        "Hides the Beat Saber logo in the menu environments": "在菜单环境下隐藏Beat Saber的logo。"
     }
 }

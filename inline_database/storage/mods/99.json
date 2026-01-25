@@ -1,13 +1,13 @@
 {
     "id": 99,
     "names": {
-        "BeatSaverVoting": null
+        "BeatSaverVoting": "BeatSaver投票"
     },
     "summmaries": {
-        "A plugin for up/downvoting songs on BeatSaver\n\nDo links work here? https://beatsaver.com/": null
+        "A plugin for up/downvoting songs on BeatSaver\n\nDo links work here? https://beatsaver.com/": "为BeatSaver上面歌曲点赞/点踩的插件。"
     },
     "descriptions": {
-        "A plugin for up/downvoting songs on BeatSaver": null
+        "A plugin for up/downvoting songs on BeatSaver": "为BeatSaver上面歌曲点赞/点踩的插件。"
     },
     "translates": {}
 }

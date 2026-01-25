@@ -1,11 +1,11 @@
 {
     "id": 117,
     "names": {
-        "SongChartVisualizer": null
+        "SongChartVisualizer": "谱面图表可视化"
     },
     "summmaries": {},
     "descriptions": {},
     "translates": {
-        "Displays an in-game chart with song difficulty information!": null
+        "Displays an in-game chart with song difficulty information!": "在游戏内显示一个图表，用于指示谱面难度信息！"
     }
 }

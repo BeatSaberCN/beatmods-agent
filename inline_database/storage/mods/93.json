@@ -1,13 +1,13 @@
 {
     "id": 93,
     "names": {
-        "Enhancements": null
+        "Enhancements": "游戏增强"
     },
     "summmaries": {
-        "Add a clock, timer, breaktime notifications, adjustable volume for specific sounds and more.": null
+        "Add a clock, timer, breaktime notifications, adjustable volume for specific sounds and more.": "添加时钟、定时器、休息提示、个别音效的音量调整等等。"
     },
     "descriptions": {
-        "# Enhancements\n**Features**\n- Configurable clock\n- Timers with notification\n- Breaktime notification during gameplay\n- Specific volume configuration\n- Pause menu temporary button lock": null
+        "# Enhancements\n**Features**\n- Configurable clock\n- Timers with notification\n- Breaktime notification during gameplay\n- Specific volume configuration\n- Pause menu temporary button lock": "# 游戏增强\n**特性**\n- 可配置的时钟\n- 定时消息推送\n- 游戏中提示休息\n- 特定的音量调整\n- 临时锁定暂停按钮"
     },
     "translates": {}
 }
