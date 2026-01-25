@@ -1,10 +1,10 @@
 {
     "id": 375,
     "names": {
-        "VerboseVolume": null
+        "VerboseVolume": "高级音量"
     },
     "summmaries": {
-        "Volume manager with some extra specifics": null
+        "Volume manager with some extra specifics": "有更多特性的音量管理器。"
     },
     "descriptions": {
         "Volume manager with some extra specifics.\r\n\r\nSettings for the mod are located in the Mod Settings menu within the normal Settings menu.": null

@@ -1,10 +1,10 @@
 {
     "id": 274,
     "names": {
-        "BetterSort.LastPlayed": null
+        "BetterSort.LastPlayed": "更好的排序.上次游玩"
     },
     "summmaries": {
-        "Add last played date sort to BetterSongList.": null
+        "Add last played date sort to BetterSongList.": "为更好的歌曲列表（BetterSongList）增加上次游玩日期排序。"
     },
     "descriptions": {
         "Add last played date sort to BetterSongList.\n\nThis mod was imported from BeatMods, and was originally uploaded by nanikit at 2022-10-10T07:15:20.372Z.": null

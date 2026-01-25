@@ -1,11 +1,11 @@
 {
     "id": 332,
     "names": {
-        "ModelMenu": null
+        "ModelMenu": "模型菜单"
     },
     "summmaries": {},
     "descriptions": {},
     "translates": {
-        "Download and manage models from a convenient menu from within the game.": null
+        "Download and manage models from a convenient menu from within the game.": "在游戏内通过一个方便的菜单下载并管理模型。"
     }
 }

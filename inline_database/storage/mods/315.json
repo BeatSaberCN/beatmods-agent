@@ -1,10 +1,10 @@
 {
     "id": 315,
     "names": {
-        "MessagePack": null
+        "MessagePack": "消息包"
     },
     "summmaries": {
-        "The extremely fast MessagePack serializer for C#.": null
+        "The extremely fast MessagePack serializer for C#.": "C#上特别快的消息包（MessagePack）序列化工具。"
     },
     "descriptions": {
         "The extremely fast MessagePack serializer for C#.\n\nThis mod was imported from BeatMods, and was originally uploaded by Meivyn at 2024-03-22T06:52:30.398Z.": null

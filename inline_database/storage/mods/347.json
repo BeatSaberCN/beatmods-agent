@@ -1,10 +1,10 @@
 {
     "id": 347,
     "names": {
-        "MultiplayerInfo": null
+        "MultiplayerInfo": "多人信息"
     },
     "summmaries": {
-        "Extra score info in multiplayer, nicknames, and rank info!": null
+        "Extra score info in multiplayer, nicknames, and rank info!": "多人游戏中额外显示分数信息、昵称、排名信息！"
     },
     "descriptions": {
         "**Features:**\n- Choose what info you want to see on the multiplayer results table from rank, max combo, total misses, bombs/walls hit, score, percent, and accuracy!\n- Give people in your lobby nicknames :) (only visible to you)\n- Check the global rank of players in your lobby (if they have a ScoreSaber or BeatLeader account associated with their id)!  \n\n**Compatible with BeatTogether, MultiplayerCore, and ServerBrowser. Does not change anything in BS+'s Multiplayer+**  \n**SongPlayHistory's Multiplayer Results Percentage might override or conflict with Results Info if both are enabled!**": null

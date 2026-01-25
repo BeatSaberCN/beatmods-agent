@@ -1,10 +1,10 @@
 {
     "id": 118,
     "names": {
-        "SongPlayHistory": null
+        "SongPlayHistory": "歌曲游玩历史"
     },
     "summmaries": {
-        "Track all your scores and song votes. Now comes with ScorePercentage included!": null
+        "Track all your scores and song votes. Now comes with ScorePercentage included!": "记录你所有的分数以及歌曲投票。现在还附送分数百分比（ScorePercentage）！"
     },
     "descriptions": {
         "# SongPlayHistory\nTrack all your scores and song votes. Now comes with ScorePercentage included!\n\nFor information on the Vote and Play history data API, see [GitHub README](https://github.com/qe201020335/SongPlayHistory#for-modders).\n\n## Features\n- Keep detailed track of your plays\n- Show how many times you've played a single beatmap\n- Interop with BeatSaverVoting and DiTails to track your vote\n- Visualize your song preferences (👍/👎) (if you don't have BeatSaverVoting installed)\n\n![Screenshot](https://raw.githubusercontent.com/qe201020335/SongPlayHistory/refs/heads/master/Screenshot.png)\n": null

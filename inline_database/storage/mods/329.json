@@ -1,10 +1,10 @@
 {
     "id": 329,
     "names": {
-        "SimpleClock": null
+        "SimpleClock": "简易时钟"
     },
     "summmaries": {
-        "Adds a 12-hour AM/PM clock to the HUD of your game using your system's time.": null
+        "Adds a 12-hour AM/PM clock to the HUD of your game using your system's time.": "在HUD上增加一个12小时AM/PM时钟，使用系统时间。"
     },
     "descriptions": {
         "Adds a 12-hour AM/PM clock to the HUD of your game using your system's time.\n\nThis mod was imported from BeatMods, and was originally uploaded by MadSquids at 2024-07-31T14:25:58.752Z.": null

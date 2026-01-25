@@ -1,11 +1,11 @@
 {
     "id": 306,
     "names": {
-        "AssetBundleLoadingTools": null
+        "AssetBundleLoadingTools": "AssetBundle加载工具"
     },
     "summmaries": {},
     "descriptions": {},
     "translates": {
-        "A library with various tools to help safely load AssetBundles and fix legacy shader issues.": null
+        "A library with various tools to help safely load AssetBundles and fix legacy shader issues.": "一个提供各种工具的支持库，用来辅助安全加载AssetBundle并修复着色器问题。"
     }
 }

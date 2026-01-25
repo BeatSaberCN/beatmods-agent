@@ -1,10 +1,10 @@
 {
     "id": 221,
     "names": {
-        "I Forgor": null
+        "I Forgor": "我忘了"
     },
     "summmaries": {
-        "Displays the direction of the last notes you hit and saber angles in the pause menu.": null
+        "Displays the direction of the last notes you hit and saber angles in the pause menu.": "在暂停菜单里，显示你上一个击打的方块方向和光剑角度。"
     },
     "descriptions": {
         "# IForgor 💀\n- Updated for newer versions by FutureMapper.\n\nA Beat Saber mod that displays the last notes and saber angles before you paused in the pause menu. This is aimed to help you not forget which direction your sabers are supposed to go. Funny epic name courtesy of Kinsi.\n\n![Screenshot 1](https://github.com/Futuremappermydud/IForgor/blob/master/Images/screenshot.jpg?raw=true)": null

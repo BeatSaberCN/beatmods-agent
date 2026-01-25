@@ -4,7 +4,7 @@
         "System.IO.Compression": null
     },
     "summmaries": {
-        "Contains classes that provide basic compression and decompression services for streams.": null
+        "Contains classes that provide basic compression and decompression services for streams.": "提供用于流的基础压缩、解压缩服务类。"
     },
     "descriptions": {
         "Contains classes that provide basic compression and decompression services for streams.\n\nThis mod was imported from BeatMods, and was originally uploaded by Bobbie at 2023-05-11T21:33:40.585Z.": null

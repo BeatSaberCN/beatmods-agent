@@ -1,13 +1,13 @@
 {
     "id": 265,
     "names": {
-        "CameraUtils": null
+        "CameraUtils": "相机工具"
     },
     "summmaries": {
-        "Library that standardizes the use of GameObject layers and provides tools for easier rendering ...": null
+        "Library that standardizes the use of GameObject layers and provides tools for easier rendering ...": "一个库，用于统一GameObject的Layers使用，以及提供工具来简化渲染管线的修改。"
     },
     "descriptions": {
-        "Library that standardizes the use of GameObject layers and provides tools for easier rendering pipeline modifications": null
+        "Library that standardizes the use of GameObject layers and provides tools for easier rendering pipeline modifications": "一个库，用于统一GameObject的Layers使用，以及提供工具来简化渲染管线的修改。"
     },
     "translates": {}
 }

@@ -1,11 +1,11 @@
 {
     "id": 254,
     "names": {
-        "BeatSaverUpdater": null
+        "BeatSaverUpdater": "BeatSaver更新器"
     },
     "summmaries": {},
     "descriptions": {},
     "translates": {
-        "Alerts you of updates to beatmaps on BeatSaver and updates them to the latest version.": null
+        "Alerts you of updates to beatmaps on BeatSaver and updates them to the latest version.": "提醒你BeatSaver上的谱面需要更新，并且将它们更新到最新版本。"
     }
 }

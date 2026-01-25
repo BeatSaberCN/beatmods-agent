@@ -1,11 +1,11 @@
 {
     "id": 96,
     "names": {
-        "BeatSaberMarkupLanguage": null
+        "BeatSaberMarkupLanguage": "节奏光剑标记语言"
     },
     "summmaries": {},
     "descriptions": {},
     "translates": {
-        "An XML based UI system.": null
+        "An XML based UI system.": "一个基于XML的UI系统。"
     }
 }

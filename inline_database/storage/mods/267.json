@@ -1,13 +1,13 @@
 {
     "id": 267,
     "names": {
-        "MultiplayerCore": null
+        "MultiplayerCore": "多人核心"
     },
     "summmaries": {
-        "A Beat Saber mod that implements core custom multiplayer functionality. ": null
+        "A Beat Saber mod that implements core custom multiplayer functionality. ": "实现自定义多人游戏的核心功能。"
     },
     "descriptions": {
-        "A Beat Saber mod that implements core custom multiplayer functionality.": null
+        "A Beat Saber mod that implements core custom multiplayer functionality.": "实现自定义多人游戏的核心功能。"
     },
     "translates": {}
 }

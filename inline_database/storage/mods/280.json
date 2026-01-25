@@ -1,11 +1,11 @@
 {
     "id": 280,
     "names": {
-        "WhyIsThereNoLeaderboard": null
+        "WhyIsThereNoLeaderboard": "为什么没有排行榜"
     },
     "summmaries": {},
     "descriptions": {},
     "translates": {
-        "Stopgap plugin that clarifies why leaderboards on custom songs are not supported.": null
+        "Stopgap plugin that clarifies why leaderboards on custom songs are not supported.": "科普插件，用来解释为什么自制谱面不支持排行榜。"
     }
 }

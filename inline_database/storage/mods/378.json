@@ -4,7 +4,7 @@
         "Vivify": null
     },
     "summmaries": {
-        "Bring your map to life.": null
+        "Bring your map to life.": "让谱面栩栩如生。"
     },
     "descriptions": {
         "Vivify allows mappers to compile an AssetBundle, then load, instantiate, and manipulate custom-made assets using in-game events. These assets include post-processing shaders, 3D models, audio files, textures, and pretty much anything else that can be compiled into an asset bundle.": null

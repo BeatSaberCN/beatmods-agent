@@ -1,10 +1,10 @@
 {
     "id": 293,
     "names": {
-        "LocalLeaderboard": null
+        "LocalLeaderboard": "本地排行榜"
     },
     "summmaries": {
-        "A leaderboard mod which saves all of your scores locally and displays them in a leaderboard wit...": null
+        "A leaderboard mod which saves all of your scores locally and displays them in a leaderboard wit...": "一个排行榜模组，本地保存分数，然后在排行榜中展示……"
     },
     "descriptions": {
         "# Local Leaderboard\n\n![Local Leaderboard Logo](https://github.com/user-attachments/assets/6f97d434-fc52-475b-9ccf-451555743d49)\n\n## Description\n\n**LocalLeaderboard** saves all of your results from playing a level to a JSON file, which is then displayed in-game. The UI shows the date of a play, your accuracy, your score, modifiers, and more. The mod also allows you to sort by date or by high score with an option for ascending or descending order. If you have **BeatLeader** installed in conjunction with **LocalLeaderboard**, you will be able to watch the replay of the score as well.\n\n## Features\n\n✔️ Saves results from playing a level to a JSON file.\n✔️ Displays results in a **custom leaderboard UI**.\n✔️ Shows **date, accuracy, score, modifiers, fail status, average hit score, and max combo**.\n✔️ Allows sorting by **date or high score**.\n✔️ Allows sorting in **ascending or descending order**.\n✔️ **Watch BeatLeader replays of each play!**\n\n⭐ *Make the panel rainbow (Patreon only)*  \n⭐ *Show your username in the header (Patreon only)*\n\n## Usage\n\n🔹 **Install via your preferred mod manager**  \nOR  \n🔹 **Manual Installation:**\n1. Unzip the latest release or download the attached DLL.\n2. Drag `LocalLeaderboard.dll` into your Beat Saber `Plugins` folder.\n3. After installing, your results from playing a level will be saved automatically to a JSON file.\n4. Access the UI within the game (located on the right of the song selection) to view your results.\n\n## Support\n\nIf you have any **issues** or **questions** regarding the Local Leaderboard mod:\n- Message me on **Discord**\n- Open an **issue** on GitHub\n\n## Credits\n\n- **@Metal_Marmott** – Fixing many various skill issues\n- **@Male** – Designing the logo\n\n": null
