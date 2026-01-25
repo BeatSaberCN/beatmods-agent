@@ -1,10 +1,10 @@
 {
     "id": 264,
     "names": {
-        "AdBlocker": null
+        "AdBlocker": "广告屏蔽"
     },
     "summmaries": {
-        "This mod simply removes the promo tile from the main menu": null
+        "This mod simply removes the promo tile from the main menu": "这个模组只是移除菜单中的促销广告。"
     },
     "descriptions": {
         "This mod simply removes the promo tile from the main menu\n\nThis mod was imported from BeatMods, and was originally uploaded by JonnyXDA at 2022-04-08T13:10:06.119Z.": null

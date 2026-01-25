@@ -1,11 +1,11 @@
 {
     "id": 130,
     "names": {
-        "SiraUtil": null
+        "SiraUtil": "Sira工具"
     },
     "summmaries": {},
     "descriptions": {},
     "translates": {
-        "A utility/library which provides useful tools to Beat Saber modders.": null
+        "A utility/library which provides useful tools to Beat Saber modders.": "一个工具库，为模组作者提供有用的工具。"
     }
 }

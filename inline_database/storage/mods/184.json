@@ -1,13 +1,13 @@
 {
     "id": 184,
     "names": {
-        "DiTails": null
+        "DiTails": "详细信息"
     },
     "summmaries": {
-        "View extra details about a map like the rating, description, upload date, and more!": null
+        "View extra details about a map like the rating, description, upload date, and more!": "显示谱面的额外详情，例如rating、描述、上传日期等！"
     },
     "descriptions": {
-        "# DiTails\nView extra details about a map\n* View Cover Art (in a larger image)\n* View Song Hash\n* View the BeatSaver description\n* Open the BeatSaver page in your browser\n* Vote in the menu!": null
+        "# DiTails\nView extra details about a map\n* View Cover Art (in a larger image)\n* View Song Hash\n* View the BeatSaver description\n* Open the BeatSaver page in your browser\n* Vote in the menu!": "# 详细信息\n显示谱面的额外详细信息\n* 封面（大图）\n* 歌曲哈希\n* BeatSaver描述\n* 在浏览器打开BeatSaver页面\n* 主菜单中投票！"
     },
     "translates": {}
 }

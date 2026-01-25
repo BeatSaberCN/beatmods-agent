@@ -4,10 +4,10 @@
         "CatCore": null
     },
     "summmaries": {
-        "CatCore is a high-performance .NET Standard 2.0 library which provides a shared connection to m...": null
+        "CatCore is a high-performance .NET Standard 2.0 library which provides a shared connection to m...": "CatCore是一个高性能.NET 2.0支持库，为模组接入Twitch（或更多串流平台）提供共享连接。"
     },
     "descriptions": {
-        "CatCore is a high-performance .NET Standard 2.0 library which provides a shared connection to mods for Twitch (and other future streaming platforms).\n\nThis mod was imported from BeatMods, and was originally uploaded by Eris at 2022-05-06T18:52:37.310Z.": null
+        "CatCore is a high-performance .NET Standard 2.0 library which provides a shared connection to mods for Twitch (and other future streaming platforms).\n\nThis mod was imported from BeatMods, and was originally uploaded by Eris at 2022-05-06T18:52:37.310Z.": "CatCore是一个高性能.NET 2.0支持库，为模组接入Twitch（或更多串流平台）提供共享连接。\n\nThis mod was imported from BeatMods, and was originally uploaded by Eris at 2022-05-06T18:52:37.310Z."
     },
     "translates": {}
 }

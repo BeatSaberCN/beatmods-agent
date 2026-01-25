@@ -4,10 +4,10 @@
         "websocket-sharp": null
     },
     "summmaries": {
-        "A C# implementation of the WebSocket protocol client and server": null
+        "A C# implementation of the WebSocket protocol client and server": "一个WebSocket协议客户端/服务器的C#实现。"
     },
     "descriptions": {
-        "A C# implementation of the WebSocket protocol client and server\n\nThis mod was imported from BeatMods, and was originally uploaded by Eris at 2020-11-30T00:21:30.892Z.": null
+        "A C# implementation of the WebSocket protocol client and server\n\nThis mod was imported from BeatMods, and was originally uploaded by Eris at 2020-11-30T00:21:30.892Z.": "一个WebSocket协议客户端/服务器的C#实现。\n\n此mod导入自BeatMods，原始版本由Eris于2020年11月30日00:21:30上传。"
     },
     "translates": {}
 }

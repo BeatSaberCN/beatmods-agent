@@ -1,11 +1,11 @@
 {
     "id": 202,
     "names": {
-        "ImageFactory": null
+        "ImageFactory": "图像工厂"
     },
     "summmaries": {},
     "descriptions": {},
     "translates": {
-        "Place images and gifs in your game and customize how they appear!": null
+        "Place images and gifs in your game and customize how they appear!": "在游戏中放置图片、gif，并定制外观！"
     }
 }

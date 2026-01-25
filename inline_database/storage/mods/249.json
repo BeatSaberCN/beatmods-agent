@@ -1,11 +1,11 @@
 {
     "id": 249,
     "names": {
-        "SoundReplacer": null
+        "SoundReplacer": "音效替换器"
     },
     "summmaries": {},
     "descriptions": {},
     "translates": {
-        "Allows you to change different in-game sounds like hit sounds, menu music, click sounds, etc.": null
+        "Allows you to change different in-game sounds like hit sounds, menu music, click sounds, etc.": "能让你修改各种游戏内音效，包括打击音效、菜单音乐、点击音效等等。"
     }
 }

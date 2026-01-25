@@ -1,13 +1,13 @@
 {
     "id": 272,
     "names": {
-        "HitsoundTweaks": null
+        "HitsoundTweaks": "打击音效修改"
     },
     "summmaries": {
-        "Adds more configurability to hitsounds, and fixes several base game bugs to make them more reli...": null
+        "Adds more configurability to hitsounds, and fixes several base game bugs to make them more reli...": "定制打击音效，修复一些游戏本体的bug来让其更可靠、一致。"
     },
     "descriptions": {
-        "Adds more configurability to hitsounds, and fixes several base game bugs to make them more reliable and consistent.": null
+        "Adds more configurability to hitsounds, and fixes several base game bugs to make them more reliable and consistent.": "定制打击音效，修复一些游戏本体的bug来让其更可靠、一致。"
     },
     "translates": {}
 }

@@ -1,11 +1,11 @@
 {
     "id": 243,
     "names": {
-        "LeaderboardCore": null
+        "LeaderboardCore": "排行榜核心"
     },
     "summmaries": {},
     "descriptions": {},
     "translates": {
-        "A utility for custom leaderboards that rely on ScoreSaber.": null
+        "A utility for custom leaderboards that rely on ScoreSaber.": "自定义排行榜工具，依赖ScoreSaber。"
     }
 }

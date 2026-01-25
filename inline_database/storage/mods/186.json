@@ -1,13 +1,13 @@
 {
     "id": 186,
     "names": {
-        "Camera2": null
+        "Camera2": "摄像机2号"
     },
     "summmaries": {
-        "Adds a lot of options / tools for creating more advanced desktop viewing experiences with multi...": null
+        "Adds a lot of options / tools for creating more advanced desktop viewing experiences with multi...": "增加大量选项/工具，可用于创建更高级的桌面视图体验，支持多相机视角等众多功能……"
     },
     "descriptions": {
-        "Adds a lot of options / tools for creating more advanced desktop viewing experiences with multiple camera angles and much more. See the Github link for more details": null
+        "Adds a lot of options / tools for creating more advanced desktop viewing experiences with multiple camera angles and much more. See the Github link for more details": "增加大量选项/工具，可用于创建更高级的桌面视图体验，支持多相机视角等众多功能。参考Github链接获取更多信息。"
     },
     "translates": {}
 }

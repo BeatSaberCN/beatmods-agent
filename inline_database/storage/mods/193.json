@@ -1,13 +1,13 @@
 {
     "id": 193,
     "names": {
-        "NoodleExtensions": null
+        "NoodleExtensions": "面条扩展"
     },
     "summmaries": {
-        "A spiritual successor to Mapping Extensions, this allows mappers to precisely control aspects o...": null
+        "A spiritual successor to Mapping Extensions, this allows mappers to precisely control aspects o...": "谱面扩展（Mapping Extensions）的精神续作，能让谱师精准控制谱面元素。它无法让你游玩Mapping Extensions的谱面！"
     },
     "descriptions": {
-        "A spiritual successor to Mapping Extensions, this allows mappers to precisely control aspects of map elements. Does not allow you to play Mapping Extensions maps!\n\nThis mod was imported from BeatMods, and was originally uploaded by Aeroluna at 2021-04-21T20:03:06.408Z.": null
+        "A spiritual successor to Mapping Extensions, this allows mappers to precisely control aspects of map elements. Does not allow you to play Mapping Extensions maps!\n\nThis mod was imported from BeatMods, and was originally uploaded by Aeroluna at 2021-04-21T20:03:06.408Z.": "谱面扩展（Mapping Extensions）的精神续作，能让谱师精准控制谱面元素。它无法让你游玩Mapping Extensions的谱面！\n\n此模组导入自BeatMods，原始版本由Aeroluna上传于2021年4月21日20:03:06。"
     },
     "translates": {}
 }

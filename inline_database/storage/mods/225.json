@@ -1,11 +1,11 @@
 {
     "id": 225,
     "names": {
-        "BetterSongSearch": null
+        "BetterSongSearch": "更好的谱面搜索"
     },
     "summmaries": {},
     "descriptions": {},
     "translates": {
-        "Search and download songs with a lot of filtering and sorting options and without frustration!": null
+        "Search and download songs with a lot of filtering and sorting options and without frustration!": "可以使用各种过滤、排序选项轻松搜索/下载谱面！"
     }
 }

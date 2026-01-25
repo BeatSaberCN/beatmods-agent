@@ -1,13 +1,13 @@
 {
     "id": 236,
     "names": {
-        "EasyOffset": null
+        "EasyOffset": "简易偏移"
     },
     "summmaries": {
-        "Intuitive controller offset adjustment tool. Includes swing benchmark for config and grip analy...": null
+        "Intuitive controller offset adjustment tool. Includes swing benchmark for config and grip analy...": "直观的手柄偏移调整工具。包括用于设置和抓握分析的挥动测试。不兼容SaberTailor。"
     },
     "descriptions": {
-        "Intuitive controller offset adjustment tool. Includes swing benchmark for config and grip analysis. Not compatible with SaberTailor": null
+        "Intuitive controller offset adjustment tool. Includes swing benchmark for config and grip analysis. Not compatible with SaberTailor": "直观的手柄偏移调整工具。包括用于设置和抓握分析的挥动测试。不兼容SaberTailor。"
     },
     "translates": {}
 }

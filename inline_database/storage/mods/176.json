@@ -1,11 +1,11 @@
 {
     "id": 176,
     "names": {
-        "BeatSaberPlaylistsLib": null
+        "BeatSaberPlaylistsLib": "节奏光剑歌单库"
     },
     "summmaries": {},
     "descriptions": {},
     "translates": {
-        "A library to centralize management of playlists.": null
+        "A library to centralize management of playlists.": "一个支持库，用于集中管理歌单。"
     }
 }

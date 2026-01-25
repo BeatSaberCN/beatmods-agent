@@ -4,10 +4,10 @@
         "FFmpeg": null
     },
     "summmaries": {
-        "FFmpeg is the leading multimedia framework, able to decode, encode, transcode, mux, demux, stre...": null
+        "FFmpeg is the leading multimedia framework, able to decode, encode, transcode, mux, demux, stre...": "FFmpeg是先进的媒体框架，可以解码、编码、转码、合成、分轨、串流、插值……"
     },
     "descriptions": {
-        "FFmpeg is the leading multimedia framework, able to decode, encode, transcode, mux, demux, stream, filter and play pretty much anything that humans and machines have created.": null
+        "FFmpeg is the leading multimedia framework, able to decode, encode, transcode, mux, demux, stream, filter and play pretty much anything that humans and machines have created.": "FFmpeg是先进的媒体框架，可以解码、编码、转码、合成、分轨、串流、插值并处理任何由人类或机器创建的东西。"
     },
     "translates": {}
 }

@@ -4,10 +4,10 @@
         "protobuf-net": null
     },
     "summmaries": {
-        "Provides simple access to fast and efficient \"Protocol Buffers\" serialization from .NET applications": null
+        "Provides simple access to fast and efficient \"Protocol Buffers\" serialization from .NET applications": "为.NET应用提供简单、高效的“Protocol Buffer”序列化支持。"
     },
     "descriptions": {
-        "Provides simple access to fast and efficient \"Protocol Buffers\" serialization from .NET applications\n\nThis mod was imported from BeatMods, and was originally uploaded by Kinsi55 at 2021-04-14T06:03:17.574Z.": null
+        "Provides simple access to fast and efficient \"Protocol Buffers\" serialization from .NET applications\n\nThis mod was imported from BeatMods, and was originally uploaded by Kinsi55 at 2021-04-14T06:03:17.574Z.": "为.NET应用提供简单、高效的“Protocol Buffer”序列化支持。\n\n此模组导入自BeatMods，原始版本由Kinsi55于2021年4月14日06:03:17上传。"
     },
     "translates": {}
 }

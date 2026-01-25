@@ -1,11 +1,11 @@
 {
     "id": 126,
     "names": {
-        "Claws": null
+        "Claws": "爪子"
     },
     "summmaries": {},
     "descriptions": {},
     "translates": {
-        "Gameplay modifier that shrinks sabers by 70% (from 1m to 0.3m) & alters grip.": null
+        "Gameplay modifier that shrinks sabers by 70% (from 1m to 0.3m) & alters grip.": "游玩方式变更：光剑长度缩短70%（1米缩至0.3米）并改变握法。"
     }
 }

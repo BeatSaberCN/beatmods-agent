@@ -1,13 +1,13 @@
 {
     "id": 231,
     "names": {
-        "LookupID": null
+        "LookupID": "ID检索"
     },
     "summmaries": {
-        "A single method written in C++ for Chroma because regex in mono is unbelievably slow. Also beat...": null
+        "A single method written in C++ for Chroma because regex in mono is unbelievably slow. Also beat...": "为Chroma专门编写的一个C++函数，因为mono下的正则查询实在是太慢了。Beatmods也是。"
     },
     "descriptions": {
-        "A single method written in C++ for Chroma because regex in mono is unbelievably slow. Also beatmods sucks.\n\nThis mod was imported from BeatMods, and was originally uploaded by Aeroluna at 2021-11-30T01:53:15.808Z.": null
+        "A single method written in C++ for Chroma because regex in mono is unbelievably slow. Also beatmods sucks.\n\nThis mod was imported from BeatMods, and was originally uploaded by Aeroluna at 2021-11-30T01:53:15.808Z.": "为Chroma专门编写的一个C++函数，因为mono下的正则查询实在是太慢了。Beatmods也是。\n\n此模组导入自BeatMods，原始版本由Aeroluna上传自2021年11月30日01:53:15。"
     },
     "translates": {}
 }

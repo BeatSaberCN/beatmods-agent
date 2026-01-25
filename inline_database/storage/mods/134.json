@@ -1,11 +1,11 @@
 {
     "id": 134,
     "names": {
-        "DataPuller": null
+        "DataPuller": "数据拉取器"
     },
     "summmaries": {},
     "descriptions": {},
     "translates": {
-        "A similar mod to HttpStatus with some extra features such as BSR code and player health": null
+        "A similar mod to HttpStatus with some extra features such as BSR code and player health": "和HttpStatus类似的模组，但包含一些额外特性，例如BSR代码和玩家生命值。"
     }
 }

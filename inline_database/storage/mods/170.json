@@ -1,11 +1,11 @@
 {
     "id": 170,
     "names": {
-        "PlaylistManager": null
+        "PlaylistManager": "歌单管理器"
     },
     "summmaries": {},
     "descriptions": {},
     "translates": {
-        "Load, create, edit and download songs of playlists in Beat Saber.": null
+        "Load, create, edit and download songs of playlists in Beat Saber.": "加载、创建、编辑并下载歌单。"
     }
 }

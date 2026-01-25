@@ -1,11 +1,11 @@
 {
     "id": 226,
     "names": {
-        "BetterSongList": null
+        "BetterSongList": "更好的歌曲列表"
     },
     "summmaries": {},
     "descriptions": {},
     "translates": {
-        "Adds Various improvements to the Basegame song list like Filters, a persisted state and much more": null
+        "Adds Various improvements to the Basegame song list like Filters, a persisted state and much more": "为游戏本体的歌曲列表增加各种优化，例如过滤器、状态保持等等。"
     }
 }

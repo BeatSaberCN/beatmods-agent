@@ -1,13 +1,13 @@
 {
     "id": 247,
     "names": {
-        "SliceDetails": null
+        "SliceDetails": "切割详情"
     },
     "summmaries": {
-        "A tool that shows your average cut angle and offset per note position/angle to help perfect you...": null
+        "A tool that shows your average cut angle and offset per note position/angle to help perfect you...": "一个工具，可以显示你的平均切割角度、每个音符的位置/角度偏移，帮你提升准确度。"
     },
     "descriptions": {
-        "A tool that shows your average cut angle and offset per note position/angle to help perfect your accuracy.": null
+        "A tool that shows your average cut angle and offset per note position/angle to help perfect your accuracy.": "一个工具，可以显示你的平均切割角度、每个音符的位置/角度偏移，帮你提升准确度。"
     },
     "translates": {}
 }

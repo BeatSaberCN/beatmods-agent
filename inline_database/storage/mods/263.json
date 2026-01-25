@@ -1,11 +1,11 @@
 {
     "id": 263,
     "names": {
-        "HighlightBombs": null
+        "HighlightBombs": "炸弹高亮"
     },
     "summmaries": {},
     "descriptions": {},
     "translates": {
-        "Adds a slight outline to bombs to make them more visible in the dark.": null
+        "Adds a slight outline to bombs to make them more visible in the dark.": "为炸弹添加高亮，以便于在黑暗中也能看清。"
     }
 }

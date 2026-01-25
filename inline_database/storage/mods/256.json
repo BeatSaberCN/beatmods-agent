@@ -1,13 +1,13 @@
 {
     "id": 256,
     "names": {
-        "MenuSaberColors": null
+        "MenuSaberColors": "菜单光剑颜色"
     },
     "summmaries": {
-        "Allows for your menu pointers to be the same color as your in-game sabers! ": null
+        "Allows for your menu pointers to be the same color as your in-game sabers! ": "能让你在菜单中的激光颜色与游戏里光剑颜色保持一致！"
     },
     "descriptions": {
-        "Allows for your menu pointers to be the same color as your in-game sabers!": null
+        "Allows for your menu pointers to be the same color as your in-game sabers!": "能让你在菜单中的激光颜色与游戏里光剑颜色保持一致！"
     },
     "translates": {}
 }

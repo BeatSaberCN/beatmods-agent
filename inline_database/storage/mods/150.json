@@ -1,11 +1,11 @@
 {
     "id": 150,
     "names": {
-        "SiraLocalizer": null
+        "SiraLocalizer": "Sira本地化"
     },
     "summmaries": {},
     "descriptions": {},
     "translates": {
-        "Adds community translations for both base game content and supported mods.": null
+        "Adds community translations for both base game content and supported mods.": "为游戏本体和模组增加社区翻译。"
     }
 }
