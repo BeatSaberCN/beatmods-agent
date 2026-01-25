@@ -1,10 +1,10 @@
 {
     "id": 312,
     "names": {
-        "OpenXR Tracker Profiles": null
+        "OpenXR Tracker Profiles": "OpenXR追踪器Profile"
     },
     "summmaries": {
-        "Adds profiles to OpenXR to support more devices such as Vive Trackers.": null
+        "Adds profiles to OpenXR to support more devices such as Vive Trackers.": "为OpenXR增加profile以支持更多设备，例如Vive追踪器。"
     },
     "descriptions": {
         "Adds profiles to OpenXR to support more devices such as Vive Trackers.\n\nThis mod was imported from BeatMods, and was originally uploaded by nicoco007 at 2024-04-07T16:45:39.185Z.": null

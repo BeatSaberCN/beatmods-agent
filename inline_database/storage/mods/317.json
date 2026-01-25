@@ -1,11 +1,11 @@
 {
     "id": 317,
     "names": {
-        "KeepMyOverridesPls": null
+        "KeepMyOverridesPls": "请保留我的覆盖设定"
     },
     "summmaries": {},
     "descriptions": {},
     "translates": {
-        "Stops the game from disabling your precious environment and colour scheme overrides.": null
+        "Stops the game from disabling your precious environment and colour scheme overrides.": "避免游戏停用你以前的环境和颜色模式覆盖设置。"
     }
 }

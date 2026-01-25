@@ -1,11 +1,11 @@
 {
     "id": 324,
     "names": {
-        "NoteCutGuide": null
+        "NoteCutGuide": "方块切割指引"
     },
     "summmaries": {},
     "descriptions": {},
     "translates": {
-        "Add a guide to each arrow note based on the direction of the note.": null
+        "Add a guide to each arrow note based on the direction of the note.": "为每个带箭头的方块根据其方向增加一个指引。"
     }
 }

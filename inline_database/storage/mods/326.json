@@ -1,10 +1,10 @@
 {
     "id": 326,
     "names": {
-        "BeatmapScanner": null
+        "BeatmapScanner": "Beatmap扫描器"
     },
     "summmaries": {
-        "Analyze maps and display useful values on a mobile UI.": null
+        "Analyze maps and display useful values on a mobile UI.": "分析谱面，并在一个移动界面上展示有用信息。"
     },
     "descriptions": {
         "# BeatSaber_BeatmapScanner\nThis plugin display new values on a mobile UI:\n- BeatLeader Pass rating\n- BeatLeader Tech rating\n- BeatLeader Star rating\n- ScoreSaber Star rating\n- Peak EBPM (per hand)\n- V3 (Does map contains arc and chain)\n- Crouch Wall count\n  \nConfiguration include:\n- Turning on/off the UI and the handle\n- Turning on/off specific UI element\n- How many sustained notes for the EBPM\n- Color steps + filters\n  \nLicense linked to this project:\n- BetterSongList\n- ImageCoverExpander\n- ppCurve\n- SliceDetails\n- SliceVisualizer\n": null

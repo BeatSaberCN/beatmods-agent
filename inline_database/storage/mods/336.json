@@ -1,11 +1,11 @@
 {
     "id": 336,
     "names": {
-        "BetterSongList PlayCount Sort": null
+        "BetterSongList PlayCount Sort": "更好的谱面搜索“游玩次数”排序"
     },
     "summmaries": {},
     "descriptions": {},
     "translates": {
-        "Adds a \"Play Count\" sort for BetterSongList!": null
+        "Adds a \"Play Count\" sort for BetterSongList!": "为更好的谱面搜索（BetterSongList）增加“游玩次数（Play Count)”排序!"
     }
 }

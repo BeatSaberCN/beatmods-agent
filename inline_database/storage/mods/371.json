@@ -1,10 +1,10 @@
 {
     "id": 371,
     "names": {
-        "BetterLegacyLights": null
+        "BetterLegacyLights": "更好的旧灯光"
     },
     "summmaries": {
-        "The successor to BetterStaticLights. Customize your static lights on old, legacy environments!": null
+        "The successor to BetterStaticLights. Customize your static lights on old, legacy environments!": "BetterStaticLights的后继模组。在老旧环境上自定义静态灯光！"
     },
     "descriptions": {
         "# BetterLegacyLights\r\nThe spiritual successor to BetterStaticLights. Choose the lights you want active on old, legacy environments.   \r\n**NOTE:** This mod only works on V1/V2 environments! This means anything that existed in the game before OST V and the \"Weave\" environment. For a full environment list, check out the GitHub repository README.\r\n\r\n## Dependencies\r\nThis mod was built to support AT LEAST Beat Saber v1.39.1 and above. Any older versions are not guaranteed to work!\r\n- BSIPA v4.3.5+\r\n- SiraUtil v3.1.14+\r\n- BeatSaberMarkupLanguage v1.12.4+\r\n\r\n## Features\r\n- Choose which light sets you want active on legacy environments.\r\n  - Each light set can be enabled or disabled; there are 5 light sets:\r\n    * BackTop -> the lights around the player and the edges of the environment\r\n    * RingLights -> the lights on the rotating rings of the environment\r\n    * LeftLasers -> the left set of lasers/lights\r\n    * RightLasers -> the right set of lasers/lights\r\n    * BottomBackSide -> the lights on the edges of the highway, and oftentimes the arrow in the background of the environment\r\n  - Each light set has a switch to change its color to the Left Saber color instead of the Right Saber.\r\n  - Each light set has a brightness slider ranging from 0.1 to 1.": null

@@ -1,10 +1,10 @@
 {
     "id": 366,
     "names": {
-        "SaberRandomizer": null
+        "SaberRandomizer": "光剑随机化"
     },
     "summmaries": {
-        "Picks one of your custom sabers at random every time you play. ": null
+        "Picks one of your custom sabers at random every time you play. ": "每次游戏随机选择一个你的自定义光剑。"
     },
     "descriptions": {
         "### Note\r\nSome sabers have shaders that are compiled for the old unity version used prior to Beat Saber 1.29.4, and may not render properly at all. However, a wide range of sabers are still completely functional and it is up to the saber creators to update the shaders they used if they are broken.\r\n\r\nTo read more about migrating sabers to the newer versions of Beat Saber, read [this wiki page](https://bsmg.wiki/models/shader-migration.html).\r\n\r\n# SaberRandomizer\r\nPC Beat Saber mod that picks one of your custom sabers at random every time you play.\r\n\r\n\r\n## Usage\r\nAfter launching Beat Saber with the mod successfully installed, a `CustomSabers` folder will be created in your Beat Saber game folder. Saber files should be placed here.\r\n\r\nThe randomizer can be activated by accessing the mod tab in the player settings menu.\r\n": null

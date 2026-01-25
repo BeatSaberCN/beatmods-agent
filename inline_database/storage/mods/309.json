@@ -1,10 +1,10 @@
 {
     "id": 309,
     "names": {
-        "XR Hands": null
+        "XR Hands": "XR手部"
     },
     "summmaries": {
-        "Defines an API that allows access to hand tracking data from devices that support hand tracking.": null
+        "Defines an API that allows access to hand tracking data from devices that support hand tracking.": "定义了一些API，能够从支持手追的设备上获得手追数据。"
     },
     "descriptions": {
         "Defines an API that allows access to hand tracking data from devices that support hand tracking.\n\nThis mod was imported from BeatMods, and was originally uploaded by nicoco007 at 2024-04-03T12:47:59.267Z.": null

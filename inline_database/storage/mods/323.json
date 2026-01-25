@@ -1,11 +1,11 @@
 {
     "id": 323,
     "names": {
-        "CustomSaberColors": null
+        "CustomSaberColors": "自定义光剑颜色"
     },
     "summmaries": {},
     "descriptions": {},
     "translates": {
-        "Lets you change saber colours separately from the notes": null
+        "Lets you change saber colours separately from the notes": "能让你分别修改光剑颜色。"
     }
 }

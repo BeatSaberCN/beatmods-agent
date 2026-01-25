@@ -1,10 +1,10 @@
 {
     "id": 313,
     "names": {
-        "OpenXR Hands": null
+        "OpenXR Hands": "OpenXR手部"
     },
     "summmaries": {
-        "Adds hand/finger tracking support for OpenXR.": null
+        "Adds hand/finger tracking support for OpenXR.": "为OpenXR引入手部/手指追踪支持。"
     },
     "descriptions": {
         "Adds hand/finger tracking support for OpenXR.\n\nThis mod was imported from BeatMods, and was originally uploaded by nicoco007 at 2024-04-07T16:44:44.113Z.": null

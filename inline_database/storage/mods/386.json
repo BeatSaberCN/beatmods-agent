@@ -1,11 +1,11 @@
 {
     "id": 386,
     "names": {
-        "WaitHoldUp": null
+        "WaitHoldUp": "等等"
     },
     "summmaries": {},
     "descriptions": {},
     "translates": {
-        "Brings up the pause menu when loading into a map": null
+        "Brings up the pause menu when loading into a map": "加载地图的时候弹出暂停菜单。"
     }
 }

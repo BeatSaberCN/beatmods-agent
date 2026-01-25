@@ -1,13 +1,13 @@
 {
     "id": 345,
     "names": {
-        "BSAssetLib": null
+        "BSAssetLib": "光剑资源库"
     },
     "summmaries": {
-        "A small beat saber mod for shader and asset creators, allowing use of the active player color s...": null
+        "A small beat saber mod for shader and asset creators, allowing use of the active player color s...": "为着色器和资源创作者准备的小模组，能够使用当前激活的玩家配色方案。"
     },
     "descriptions": {
-        "A small beat saber mod for shader and asset creators, allowing use of the active player color scheme.": null
+        "A small beat saber mod for shader and asset creators, allowing use of the active player color scheme.": "为着色器和资源创作者准备的小模组，能够使用当前激活的玩家配色方案。"
     },
     "translates": {}
 }

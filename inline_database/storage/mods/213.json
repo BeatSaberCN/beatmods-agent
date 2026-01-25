@@ -1,10 +1,10 @@
 {
     "id": 213,
     "names": {
-        "UITweaks": null
+        "UITweaks": "UI修改"
     },
     "summmaries": {
-        "Add some colors and rainbows to the in-game HUD!": null
+        "Add some colors and rainbows to the in-game HUD!": "为游戏内的HUD增添一些颜色和彩虹!"
     },
     "descriptions": {
         "# 🛠️ UITweaks\nAdd some colors and rainbows the in-game HUD!\n\n## Features\nThis highly configurable mod allows you to adjust the colors of:\n* The Multiplier Ring:\n  * Unique colors for every multiplier stage\n  * Smoothly transition between multiplier stages\n  * Rainbow animation on full (8x) multiplier\n* The Energy Bar\n  * Low, center, and high energy colors that smoothly fade depending on your current energy\n  * Rainbow animation on full energy\n  * Proper support for one-line and 4-life gameplay modes\n* The \"FC\" Lines of the Combo Panel\n  * Lines can either be solid colors or gradient between two different colors\n  * Bottom line can reflect the top line for a more unique effect\n* The Progress Bar\n  * Options to color the fill, background, and handle components individually\n  * Alternate rendering mode to transition between two colors as the song progresses\n* The Rank Panel Lettering\n  * Unique coloring for every possible rank\n  * Rainbow animation on SS rank\n  * *Compatible with Counters+*\n* The Position Panel (Multiplayer Exclusive)\n  * Unique colors corresponding to your current rank in the lobby\n  * Rainbow animation in first place\n  * Disable first place animation\n\nAdditionally, this mod comes with a built-in settings previewer that lets you see what your options will look like in real-time, right in the menu scene. These options are seamlessly reflected to the game scene!\n\n![Preview](https://github.com/Exomanz/UITweaks/blob/master/Resources/standard.jpg?raw=true)": null

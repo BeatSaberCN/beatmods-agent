@@ -1,13 +1,13 @@
 {
     "id": 335,
     "names": {
-        "IntroSkip": null
+        "IntroSkip": "跳过开头"
     },
     "summmaries": {
-        "Allows you to skip intros and outros of songs that are longer than 5 seconds without any signif...": null
+        "Allows you to skip intros and outros of songs that are longer than 5 seconds without any signif...": "能让你跳过歌曲的开头和结尾那些长度超过5秒没有任何交互对象的进度。"
     },
     "descriptions": {
-        "Allows you to skip intros and outros of songs that are longer than 5 seconds without any significant objects.": null
+        "Allows you to skip intros and outros of songs that are longer than 5 seconds without any significant objects.": "能让你跳过歌曲的开头和结尾那些长度超过5秒没有任何交互对象的进度。"
     },
     "translates": {}
 }

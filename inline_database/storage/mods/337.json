@@ -1,13 +1,13 @@
 {
     "id": 337,
     "names": {
-        "MultiplayerMirror": null
+        "MultiplayerMirror": "多人镜子"
     },
     "summmaries": {
         "See your own avatar in multiplayer lobbies and games. Lobby mirror, in-game #1 hologram mirror,...": null
     },
     "descriptions": {
-        "See your own avatar in multiplayer lobbies and games. Lobby mirror, in-game #1 hologram mirror, avatar editor mirror.": null
+        "See your own avatar in multiplayer lobbies and games. Lobby mirror, in-game #1 hologram mirror, avatar editor mirror.": "在多人大厅和游戏中看自己的形象。大厅镜子，游戏内#1全身镜子，形象编辑器的镜子。"
     },
     "translates": {}
 }

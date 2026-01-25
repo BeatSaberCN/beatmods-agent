@@ -1,13 +1,13 @@
 {
     "id": 333,
     "names": {
-        "Height": null
+        "Height": "高度"
     },
     "summmaries": {
-        "Simple plugin that allow the player to select a specific Player Height between 0.01 and 2.5.\r\nA...": null
+        "Simple plugin that allow the player to select a specific Player Height between 0.01 and 2.5.\r\nA...": "一个简单插件，能让玩家在0.01至2.5之间指定玩家身高。同样……"
     },
     "descriptions": {
-        "Simple plugin that allow the player to select a specific Player Height between 0.01 and 2.5.\rAlso make Room Offset increment by 0.01 and Rotation by 1 instead of their default value.": null
+        "Simple plugin that allow the player to select a specific Player Height between 0.01 and 2.5.\rAlso make Room Offset increment by 0.01 and Rotation by 1 instead of their default value.": "一个简单插件，能让玩家在0.01至2.5之间指定玩家身高。\n同样将房间偏移（Room Offset）最小步长改为0.01、将旋转（Rotation）步长改为1，而不是它们的默认值。"
     },
     "translates": {}
 }

@@ -1,11 +1,11 @@
 {
     "id": 330,
     "names": {
-        "TimeSyncStutterFix": null
+        "TimeSyncStutterFix": "时间同步卡顿修复"
     },
     "summmaries": {},
     "descriptions": {},
     "translates": {
-        "Fix note/bomb/wall stuttering caused by AudioTimeSyncController.": null
+        "Fix note/bomb/wall stuttering caused by AudioTimeSyncController.": "修复因AudioTimeSyncController造成的方块/炸弹/墙壁卡顿问题。"
     }
 }

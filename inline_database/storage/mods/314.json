@@ -1,10 +1,10 @@
 {
     "id": 314,
     "names": {
-        "OpenXR Feature Manager": null
+        "OpenXR Feature Manager": "OpenXR特性管理器"
     },
     "summmaries": {
-        "Manages adding OpenXR features at runtime.": null
+        "Manages adding OpenXR features at runtime.": "此模组可以在游戏运行时添加OpenXR特性。"
     },
     "descriptions": {
         "Manages adding OpenXR features at runtime.\n\nThis mod was imported from BeatMods, and was originally uploaded by nicoco007 at 2024-04-07T16:43:26.686Z.": null

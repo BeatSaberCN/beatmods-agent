@@ -4,10 +4,10 @@
         "OpenVR API": null
     },
     "summmaries": {
-        "A library for Beat Saber that provides API bindings to communicate with the OpenVR runtime (Ste...": null
+        "A library for Beat Saber that provides API bindings to communicate with the OpenVR runtime (Ste...": "一个节奏光剑库，提供与OpenVR运行时(SteamVR)交流所需的API绑定。"
     },
     "descriptions": {
-        "A library for Beat Saber that provides API bindings to communicate with the OpenVR runtime (SteamVR).\n\nThis mod was imported from BeatMods, and was originally uploaded by nicoco007 at 2024-04-03T12:48:41.563Z.": null
+        "A library for Beat Saber that provides API bindings to communicate with the OpenVR runtime (SteamVR).\n\nThis mod was imported from BeatMods, and was originally uploaded by nicoco007 at 2024-04-03T12:48:41.563Z.": "一个节奏光剑库，提供与OpenVR运行时(SteamVR)交流所需的API绑定。"
     },
     "translates": {}
 }

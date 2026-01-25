@@ -1,11 +1,11 @@
 {
     "id": 334,
     "names": {
-        "FPSCounter": null
+        "FPSCounter": "FPS计数器"
     },
     "summmaries": {},
     "descriptions": {},
     "translates": {
-        "A Beat Saber mod to show your fps in-game": null
+        "A Beat Saber mod to show your fps in-game": "在游戏里显示FPS。"
     }
 }
