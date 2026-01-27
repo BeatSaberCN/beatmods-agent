@@ -67,7 +67,13 @@ def fetch_mod_info(mod):
     item.merge_from_json(mod)
 
 def fetch_mods_to_storage(url:str):
-    data = urllib.request.urlopen(url).read().decode("utf-8")
+    try:
+        data = urllib.request.urlopen(urllib.request.Request(url, headers={
+            "User-Agent":"ModsMirror/1.0 (BeatSaberCN; +https://github.com/BeatSaberCN/beatmods-agent) python update script"
+        })).read().decode("utf-8")
+    except urllib.request.HTTPError as e:
+        print(e.fp.read().decode("utf-8"))
+        exit(0)
     jsondata = json.loads(data)
     for mod in jsondata['mods']:
         fetch_mod_info(mod['mod'])
@@ -76,8 +82,8 @@ def write_to_storage():
         storage[k].write_storage()
 
 read_storage()
-# fetch_mods_to_storage("https://beatmods.com/api/mods?gameName=BeatSaber&gameVersion=1.40.8&status=verified&platform=universalpc")
-fetch_mods_to_storage("https://beatmods.com/api/mods?gameName=BeatSaber&status=verified")
+fetch_mods_to_storage("https://beatmods.com/api/mods?gameName=BeatSaber&gameVersion=1.40.8&status=verified&platform=universalpc")
+# fetch_mods_to_storage("https://beatmods.com/api/mods?gameName=BeatSaber&status=verified")
 write_to_storage()
 
 # write to source
