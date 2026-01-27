@@ -76,7 +76,8 @@ def write_to_storage():
         storage[k].write_storage()
 
 read_storage()
-fetch_mods_to_storage("https://beatmods.com/api/mods?gameName=BeatSaber&gameVersion=1.40.8&status=verified&platform=universalpc")
+# fetch_mods_to_storage("https://beatmods.com/api/mods?gameName=BeatSaber&gameVersion=1.40.8&status=verified&platform=universalpc")
+fetch_mods_to_storage("https://beatmods.com/api/mods?gameName=BeatSaber&status=verified")
 write_to_storage()
 
 # write to source
