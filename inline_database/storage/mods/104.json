@@ -1,0 +1,13 @@
+{
+    "id": 104,
+    "names": {
+        "PauseMenuRotationFix": null
+    },
+    "summmaries": {
+        "Fixes wrong controller orientation when pausing in 90/360 levels.": null
+    },
+    "descriptions": {
+        "Fixes wrong controller orientation when pausing in 90/360 levels.\n\nThis mod was imported from BeatMods, and was originally uploaded by Shadnix at 2019-12-16T01:46:33.001Z.": null
+    },
+    "translates": {}
+}

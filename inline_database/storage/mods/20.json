@@ -1,13 +1,13 @@
 {
-  "id": 20,
-  "names": {
-    "Ini Parser": "ini配置解析"
-  },
-  "summmaries": {
-    "A .NET, Mono and Unity3d compatible(*) library for reading/writing INI data from IO streams, fi...": "一个兼容.NET/Mono以及Unity3d的库，可以在C#里从IO流、文件流、字符串中读写INI文件……"
-  },
-  "descriptions": {
-    "A .NET, Mono and Unity3d compatible(*) library for reading/writing INI data from IO streams, file streams, and strings written in C#. Not made by myself, refer to github link for author.\n\nThis mod was imported from BeatMods, and was originally uploaded by DaNike at 2019-04-22T23:14:26.473Z.": "一个兼容.NET/Mono以及Unity3d的库，可以在C#里从IO流、文件流、字符串中读写INI文件。作者不是上传者，请参考Github链接中的作者。\n\n此模组从BeatMods导入，原始上传者为DaNike，于2019年4月22日23点14分26.473秒上传。"
-  },
-  "translates": {}
+    "id": 20,
+    "names": {
+        "Ini Parser": "ini配置解析"
+    },
+    "summmaries": {
+        "A .NET, Mono and Unity3d compatible(*) library for reading/writing INI data from IO streams, fi...": "一个兼容.NET/Mono以及Unity3d的库，可以在C#里从IO流、文件流、字符串中读写INI文件……"
+    },
+    "descriptions": {
+        "A .NET, Mono and Unity3d compatible(*) library for reading/writing INI data from IO streams, file streams, and strings written in C#. Not made by myself, refer to github link for author.\n\nThis mod was imported from BeatMods, and was originally uploaded by DaNike at 2019-04-22T23:14:26.473Z.": "一个兼容.NET/Mono以及Unity3d的库，可以在C#里从IO流、文件流、字符串中读写INI文件。作者不是上传者，请参考Github链接中的作者。\n\n此模组从BeatMods导入，原始上传者为DaNike，于2019年4月22日23点14分26.473秒上传。"
+    },
+    "translates": {}
 }

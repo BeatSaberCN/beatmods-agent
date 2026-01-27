@@ -1,0 +1,13 @@
+{
+    "id": 234,
+    "names": {
+        "Link": null
+    },
+    "summmaries": {
+        "Adds a !link command to your stream which posts the BeatSaver link to the actively played map i...": null
+    },
+    "descriptions": {
+        "Adds a !link command to your stream which posts the BeatSaver link to the actively played map in your chat. \n\nThis mod was imported from BeatMods, and was originally uploaded by auros at 2021-10-11T02:45:56.732Z.": null
+    },
+    "translates": {}
+}

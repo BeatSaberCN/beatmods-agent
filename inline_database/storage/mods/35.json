@@ -1,0 +1,13 @@
+{
+    "id": 35,
+    "names": {
+        "SongBrowser": null
+    },
+    "summmaries": {
+        "Adds various sorting and filtering methods to the existing Level selection UI.  Includes Playli...": null
+    },
+    "descriptions": {
+        "Adds various sorting and filtering methods to the existing Level selection UI.  Includes Playlist support, Search filtering, and a Favorites option. Adds PP and other extra stats to the existing menu.\n\nThis mod was imported from BeatMods, and was originally uploaded by halsafar at 2019-05-08T18:02:47.857Z.": null
+    },
+    "translates": {}
+}

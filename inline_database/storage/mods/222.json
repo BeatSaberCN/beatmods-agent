@@ -1,0 +1,13 @@
+{
+    "id": 222,
+    "names": {
+        "BadCutType": null
+    },
+    "summmaries": {
+        "When you get a bad cut, replace the \"x\" effect with text of the bad cut reason. Has settings to...": null
+    },
+    "descriptions": {
+        "When you get a bad cut, replace the \"x\" effect with text of the bad cut reason. Has settings to enable/disable, change font size/color, write your own text for each bad cut type.\n\nThis mod was imported from BeatMods, and was originally uploaded by Dream Reality at 2021-09-06T04:59:18.749Z.": null
+    },
+    "translates": {}
+}

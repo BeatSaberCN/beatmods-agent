@@ -1,0 +1,13 @@
+{
+    "id": 73,
+    "names": {
+        "SongDataCore": null
+    },
+    "summmaries": {
+        "Download and cache database dumps of ScoreSaber and BeatSaver. Map the information by song hash...": null
+    },
+    "descriptions": {
+        "Download and cache database dumps of ScoreSaber and BeatSaver. Map the information by song hash and make available to other plugins.\n\nThis mod was imported from BeatMods, and was originally uploaded by halsafar at 2019-07-18T00:50:08.300Z.": null
+    },
+    "translates": {}
+}

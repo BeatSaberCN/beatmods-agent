@@ -1,0 +1,13 @@
+{
+    "id": 44,
+    "names": {
+        "HTTP Status": null
+    },
+    "summmaries": {
+        "This plugin can be used to build custom stream overlays or track player performance by third pa...": null
+    },
+    "descriptions": {
+        "This plugin can be used to build custom stream overlays or track player performance by third party programs. It exposes information about the current game status, live over a WebSocket and over HTTP.\n\nThis mod was imported from BeatMods, and was originally uploaded by opl at 2019-04-21T16:09:39.976Z.": null
+    },
+    "translates": {}
+}

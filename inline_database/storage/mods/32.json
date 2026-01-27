@@ -1,0 +1,13 @@
+{
+    "id": 32,
+    "names": {
+        "CustomMissText": null
+    },
+    "summmaries": {
+        "Random text whenever you miss a block!": null
+    },
+    "descriptions": {
+        "Broke: \"MISS\"\rWoke: \"HITN'T\"\r----\rRandom text whenever you miss a block!": null
+    },
+    "translates": {}
+}

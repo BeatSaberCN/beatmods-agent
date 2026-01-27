@@ -1,0 +1,13 @@
+{
+    "id": 43,
+    "names": {
+        "NotesLeftCounter": null
+    },
+    "summmaries": {
+        "Adds a counter of how many notes are left in the song in game, can be toggled in Gameplay modif...": null
+    },
+    "descriptions": {
+        "Adds a counter of how many notes are left in the song in game, can be toggled in Gameplay modifiers panel when selecting songs\n\nThis mod was imported from BeatMods, and was originally uploaded by Kyle 1413 at 2019-04-05T00:43:18.709Z.": null
+    },
+    "translates": {}
+}

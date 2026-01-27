@@ -1,0 +1,13 @@
+{
+    "id": 97,
+    "names": {
+        "PerfectionDisplay": null
+    },
+    "summmaries": {
+        "Adds more info to the results screen and during gameplay if enabled. Will use HitScoreVisualize...": null
+    },
+    "descriptions": {
+        "Adds more info to the results screen and during gameplay if enabled. Will use HitScoreVisualizer config if you have the plugin and integration is enabled.\n\nThis mod was imported from BeatMods, and was originally uploaded by monkeymanboy at 2019-11-08T00:57:17.741Z.": null
+    },
+    "translates": {}
+}

@@ -1,0 +1,11 @@
+{
+    "id": 310,
+    "names": {
+        "NullSearchFix": null
+    },
+    "summmaries": {},
+    "descriptions": {},
+    "translates": {
+        "Fixes an issue where search breaks if you have a map with no title in your custom songs folder.": null
+    }
+}

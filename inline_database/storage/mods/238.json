@@ -1,0 +1,13 @@
+{
+    "id": 238,
+    "names": {
+        "PlayFirst(SubmitLater)": null
+    },
+    "summmaries": {
+        "Decide score submission in pause menu and the end of a map, prevent submission of failed NF sco...": null
+    },
+    "descriptions": {
+        "Decide score submission in pause menu and the end of a map, prevent submission of failed NF scores, or disable all scores.": null
+    },
+    "translates": {}
+}

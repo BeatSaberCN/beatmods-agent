@@ -1,0 +1,13 @@
+{
+    "id": 331,
+    "names": {
+        "PitchFix": null
+    },
+    "summmaries": {
+        "Fix pitch correction for faster/slower song not working properly.": null
+    },
+    "descriptions": {
+        "Fix pitch correction not working in Beat Saber 1.37.2.\n\nThis mod was imported from BeatMods, and was originally uploaded by nicoco007 at 2024-08-14T22:53:56.947Z.": null
+    },
+    "translates": {}
+}

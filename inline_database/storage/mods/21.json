@@ -1,0 +1,13 @@
+{
+    "id": 21,
+    "names": {
+        "Harmony": null
+    },
+    "summmaries": {
+        "A library for patching, replacing and decorating .NET and Mono methods during runtime.\n\nThis en...": null
+    },
+    "descriptions": {
+        "A library for patching, replacing and decorating .NET and Mono methods during runtime.\n\nThis entry exists only for dependencies. The library actually exists in BSIPA.\n\nThis mod was imported from BeatMods, and was originally uploaded by DaNike at 2019-04-22T23:15:40.866Z.": null
+    },
+    "translates": {}
+}
