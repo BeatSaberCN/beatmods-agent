@@ -20,8 +20,8 @@ const MY_PREFIX = "^https?://[^/]+/api"
 const REMOTE_SERVER = "https://beatmods.com/api"
 
 const handlers:RequestHandler[] = [
-    new RedirectHandler(new RegExp("https?://[^/]+/cdn/icon/(.*)$"),   "https://beatmods.com/cdn/icon/$1"),
-    new RedirectHandler(new RegExp("https?://[^/]+/cdn/mod/(.*)$"),    "https://beatmods.com/cdn/mod/$1"),
+    new RedirectHandler(new RegExp("^https?://[^/]+/cdn/icon/(.*)$"),   "https://beatmods.com/cdn/icon/$1"),
+    new RedirectHandler(new RegExp("^https?://[^/]+/cdn/mod/(.*)$"),    "https://beatmods.com/cdn/mod/$1"),
 
     // execute me?
     new ProxyHandler(new RegExp(MY_PREFIX +"/bbmStatusForBbmAlsoPinkEraAndLillieAreCuteBtwWilliamGay$"),      REMOTE_SERVER + "/bbmStatusForBbmAlsoPinkEraAndLillieAreCuteBtwWilliamGay")
@@ -52,10 +52,10 @@ const handlers:RequestHandler[] = [
     new ProxyHandler(new RegExp(MY_PREFIX +"/users$"),                 REMOTE_SERVER + "/users"),
 
 
-    new FrontendHandler(new RegExp("(https?://[^/]+/)front/(_app/.*)$"),   "$1front/$2"),
-    new FrontendHandler(new RegExp("(https?://[^/]+/)front/(user/.*)$"),   "$1front/$2"),
-    new FrontendHandler(new RegExp("(https?://[^/]+/)front/(mods)$"),   "$1front/$2"),
-    new FrontendHandler(new RegExp("(https?://[^/]+/)front/(mods/.*)$"),   "$1front/$2"),
+    new FrontendHandler(new RegExp("^(https?://[^/]+/)front/(_app/.*)$"),   "$1front/$2"),
+    new FrontendHandler(new RegExp("^(https?://[^/]+/)front/(user/.*)$"),   "$1front/$2"),
+    new FrontendHandler(new RegExp("^(https?://[^/]+/)front/(mods)$"),   "$1front/$2"),
+    new FrontendHandler(new RegExp("^(https?://[^/]+/)front/(mods/.*)$"),   "$1front/$2"),
     new TranslateDbEditPageHandler(),
     new TranslateDbFetchHandler()
 ]

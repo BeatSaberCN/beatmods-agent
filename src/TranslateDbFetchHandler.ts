@@ -3,7 +3,7 @@ import { TranslateDBItem } from "./TranslateDB";
 export class TranslateDbFetchHandler implements RequestHandler{
     url_re: RegExp;
     constructor(){
-        this.url_re = new RegExp("https?://[^/]+/tapi/inlinedb/([0-9]+)$")
+        this.url_re = new RegExp("^https?://[^/]+/tapi/inlinedb/([0-9]+)$")
     }
     urlMatch(url: string): boolean {
         return !! this.url_re.exec(url)

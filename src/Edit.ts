@@ -2,7 +2,7 @@ import editpage from "./edit.html"
 export class TranslateDbEditPageHandler implements RequestHandler{
     url_re: RegExp;
     constructor(){
-        this.url_re = new RegExp("https?://[^/]+/json_edit/[0-9]+$")
+        this.url_re = new RegExp("^https?://[^/]+/json_edit/[0-9]+$")
     }
     urlMatch(url: string): boolean {
         console.log(url)
